@@ -1,0 +1,738 @@
+{
+  "arr": [
+    {
+      "path": "https://www.biblestudytools.com/aa/genesis/",
+      "name": "Genesis",
+      "code": "genesis",
+      "index": 1,
+      "fullName": "The First Book of Moses Called Genesis",
+      "numChapters": 50,
+      "numVerses": "1,533",
+      "category": "Law",
+      "categoryIndex": 1
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/exodo/",
+      "name": "exodo",
+      "code": "exodo"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/levitico/",
+      "name": "levitico",
+      "code": "levitico"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/numeros/",
+      "name": "numeros",
+      "code": "numeros"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/deuteronomio/",
+      "name": "deuteronomio",
+      "code": "deuteronomio"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/josue/",
+      "name": "josue",
+      "code": "josue"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/juizes/",
+      "name": "juizes",
+      "code": "juizes"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/rute/",
+      "name": "rute",
+      "code": "rute"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/1-samuel/",
+      "name": "1 Samuel",
+      "code": "1-samuel",
+      "index": 9,
+      "fullName": "The First Book of Samuel",
+      "numChapters": 31,
+      "numVerses": "810",
+      "category": "Old Testament Narrative",
+      "categoryIndex": 2
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/2-samuel/",
+      "name": "2 Samuel",
+      "code": "2-samuel",
+      "index": 10,
+      "fullName": "The Second Book of Samuel",
+      "numChapters": 24,
+      "numVerses": "695",
+      "category": "Old Testament Narrative",
+      "categoryIndex": 2
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/1-reis/",
+      "name": "1 reis",
+      "code": "1-reis"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/2-reis/",
+      "name": "2 reis",
+      "code": "2-reis"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/1-cronicas/",
+      "name": "1 cronicas",
+      "code": "1-cronicas"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/2-cronicas/",
+      "name": "2 cronicas",
+      "code": "2-cronicas"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/esdras/",
+      "name": "esdras",
+      "code": "esdras"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/neemias/",
+      "name": "neemias",
+      "code": "neemias"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/ester/",
+      "name": "ester",
+      "code": "ester"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/jo/",
+      "name": "jo",
+      "code": "jo"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/salmos/",
+      "name": "salmos",
+      "code": "salmos"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/proverbios/",
+      "name": "proverbios",
+      "code": "proverbios"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/eclesiastes/",
+      "name": "eclesiastes",
+      "code": "eclesiastes"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/cantares-de-salomao/",
+      "name": "cantares de-salomao",
+      "code": "cantares-de-salomao"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/isaias/",
+      "name": "isaias",
+      "code": "isaias"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/jeremias/",
+      "name": "jeremias",
+      "code": "jeremias"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/lamentacoes-de-jeremias/",
+      "name": "lamentacoes de-jeremias",
+      "code": "lamentacoes-de-jeremias"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/ezequiel/",
+      "name": "ezequiel",
+      "code": "ezequiel"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/daniel/",
+      "name": "Daniel",
+      "code": "daniel",
+      "index": 27,
+      "fullName": "The Book of Daniel",
+      "numChapters": 12,
+      "numVerses": "357",
+      "category": "Major Prophets",
+      "categoryIndex": 4
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/oseias/",
+      "name": "oseias",
+      "code": "oseias"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/joel/",
+      "name": "Joel",
+      "code": "joel",
+      "index": 29,
+      "fullName": "The Book of Joel",
+      "numChapters": 3,
+      "numVerses": "73",
+      "category": "Minor Prophets",
+      "categoryIndex": 5
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/amos/",
+      "name": "Amos",
+      "code": "amos",
+      "index": 30,
+      "fullName": "The Book of Amos",
+      "numChapters": 9,
+      "numVerses": "146",
+      "category": "Minor Prophets",
+      "categoryIndex": 5
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/obadias/",
+      "name": "obadias",
+      "code": "obadias"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/jonas/",
+      "name": "jonas",
+      "code": "jonas"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/miqueias/",
+      "name": "miqueias",
+      "code": "miqueias"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/naum/",
+      "name": "naum",
+      "code": "naum"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/habacuque/",
+      "name": "habacuque",
+      "code": "habacuque"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/sofonias/",
+      "name": "sofonias",
+      "code": "sofonias"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/ageu/",
+      "name": "ageu",
+      "code": "ageu"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/zacarias/",
+      "name": "zacarias",
+      "code": "zacarias"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/malaquias/",
+      "name": "malaquias",
+      "code": "malaquias"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/mateus/",
+      "name": "mateus",
+      "code": "mateus"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/marcos/",
+      "name": "marcos",
+      "code": "marcos"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/lucas/",
+      "name": "lucas",
+      "code": "lucas"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/joao/",
+      "name": "joao",
+      "code": "joao"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/atos/",
+      "name": "atos",
+      "code": "atos"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/romanos/",
+      "name": "romanos",
+      "code": "romanos"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/1-corintios/",
+      "name": "1 corintios",
+      "code": "1-corintios"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/2-corintios/",
+      "name": "2 corintios",
+      "code": "2-corintios"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/galatas/",
+      "name": "galatas",
+      "code": "galatas"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/efesios/",
+      "name": "efesios",
+      "code": "efesios"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/filipenses/",
+      "name": "filipenses",
+      "code": "filipenses"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/colossenses/",
+      "name": "colossenses",
+      "code": "colossenses"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/1-tessalonicenses/",
+      "name": "1 tessalonicenses",
+      "code": "1-tessalonicenses"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/2-tessalonicenses/",
+      "name": "2 tessalonicenses",
+      "code": "2-tessalonicenses"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/1-timoteo/",
+      "name": "1 timoteo",
+      "code": "1-timoteo"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/2-timoteo/",
+      "name": "2 timoteo",
+      "code": "2-timoteo"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/tito/",
+      "name": "tito",
+      "code": "tito"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/filemon/",
+      "name": "filemon",
+      "code": "filemon"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/hebreus/",
+      "name": "hebreus",
+      "code": "hebreus"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/tiago/",
+      "name": "tiago",
+      "code": "tiago"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/1-pedro/",
+      "name": "1 pedro",
+      "code": "1-pedro"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/2-pedro/",
+      "name": "2 pedro",
+      "code": "2-pedro"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/1-joao/",
+      "name": "1 joao",
+      "code": "1-joao"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/2-joao/",
+      "name": "2 joao",
+      "code": "2-joao"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/3-joao/",
+      "name": "3 joao",
+      "code": "3-joao"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/judas/",
+      "name": "judas",
+      "code": "judas"
+    },
+    {
+      "path": "https://www.biblestudytools.com/aa/apocalipse/",
+      "name": "apocalipse",
+      "code": "apocalipse"
+    }
+  ],
+  "names": {
+    "genesis": {
+      "path": "https://www.biblestudytools.com/aa/genesis/",
+      "name": "Genesis",
+      "code": "genesis",
+      "index": 1,
+      "fullName": "The First Book of Moses Called Genesis",
+      "numChapters": 50,
+      "numVerses": "1,533",
+      "category": "Law",
+      "categoryIndex": 1
+    },
+    "exodo": {
+      "path": "https://www.biblestudytools.com/aa/exodo/",
+      "name": "exodo",
+      "code": "exodo"
+    },
+    "levitico": {
+      "path": "https://www.biblestudytools.com/aa/levitico/",
+      "name": "levitico",
+      "code": "levitico"
+    },
+    "numeros": {
+      "path": "https://www.biblestudytools.com/aa/numeros/",
+      "name": "numeros",
+      "code": "numeros"
+    },
+    "deuteronomio": {
+      "path": "https://www.biblestudytools.com/aa/deuteronomio/",
+      "name": "deuteronomio",
+      "code": "deuteronomio"
+    },
+    "josue": {
+      "path": "https://www.biblestudytools.com/aa/josue/",
+      "name": "josue",
+      "code": "josue"
+    },
+    "juizes": {
+      "path": "https://www.biblestudytools.com/aa/juizes/",
+      "name": "juizes",
+      "code": "juizes"
+    },
+    "rute": {
+      "path": "https://www.biblestudytools.com/aa/rute/",
+      "name": "rute",
+      "code": "rute"
+    },
+    "1-samuel": {
+      "path": "https://www.biblestudytools.com/aa/1-samuel/",
+      "name": "1 Samuel",
+      "code": "1-samuel",
+      "index": 9,
+      "fullName": "The First Book of Samuel",
+      "numChapters": 31,
+      "numVerses": "810",
+      "category": "Old Testament Narrative",
+      "categoryIndex": 2
+    },
+    "2-samuel": {
+      "path": "https://www.biblestudytools.com/aa/2-samuel/",
+      "name": "2 Samuel",
+      "code": "2-samuel",
+      "index": 10,
+      "fullName": "The Second Book of Samuel",
+      "numChapters": 24,
+      "numVerses": "695",
+      "category": "Old Testament Narrative",
+      "categoryIndex": 2
+    },
+    "1-reis": {
+      "path": "https://www.biblestudytools.com/aa/1-reis/",
+      "name": "1 reis",
+      "code": "1-reis"
+    },
+    "2-reis": {
+      "path": "https://www.biblestudytools.com/aa/2-reis/",
+      "name": "2 reis",
+      "code": "2-reis"
+    },
+    "1-cronicas": {
+      "path": "https://www.biblestudytools.com/aa/1-cronicas/",
+      "name": "1 cronicas",
+      "code": "1-cronicas"
+    },
+    "2-cronicas": {
+      "path": "https://www.biblestudytools.com/aa/2-cronicas/",
+      "name": "2 cronicas",
+      "code": "2-cronicas"
+    },
+    "esdras": {
+      "path": "https://www.biblestudytools.com/aa/esdras/",
+      "name": "esdras",
+      "code": "esdras"
+    },
+    "neemias": {
+      "path": "https://www.biblestudytools.com/aa/neemias/",
+      "name": "neemias",
+      "code": "neemias"
+    },
+    "ester": {
+      "path": "https://www.biblestudytools.com/aa/ester/",
+      "name": "ester",
+      "code": "ester"
+    },
+    "jo": {
+      "path": "https://www.biblestudytools.com/aa/jo/",
+      "name": "jo",
+      "code": "jo"
+    },
+    "salmos": {
+      "path": "https://www.biblestudytools.com/aa/salmos/",
+      "name": "salmos",
+      "code": "salmos"
+    },
+    "proverbios": {
+      "path": "https://www.biblestudytools.com/aa/proverbios/",
+      "name": "proverbios",
+      "code": "proverbios"
+    },
+    "eclesiastes": {
+      "path": "https://www.biblestudytools.com/aa/eclesiastes/",
+      "name": "eclesiastes",
+      "code": "eclesiastes"
+    },
+    "cantares-de-salomao": {
+      "path": "https://www.biblestudytools.com/aa/cantares-de-salomao/",
+      "name": "cantares de-salomao",
+      "code": "cantares-de-salomao"
+    },
+    "isaias": {
+      "path": "https://www.biblestudytools.com/aa/isaias/",
+      "name": "isaias",
+      "code": "isaias"
+    },
+    "jeremias": {
+      "path": "https://www.biblestudytools.com/aa/jeremias/",
+      "name": "jeremias",
+      "code": "jeremias"
+    },
+    "lamentacoes-de-jeremias": {
+      "path": "https://www.biblestudytools.com/aa/lamentacoes-de-jeremias/",
+      "name": "lamentacoes de-jeremias",
+      "code": "lamentacoes-de-jeremias"
+    },
+    "ezequiel": {
+      "path": "https://www.biblestudytools.com/aa/ezequiel/",
+      "name": "ezequiel",
+      "code": "ezequiel"
+    },
+    "daniel": {
+      "path": "https://www.biblestudytools.com/aa/daniel/",
+      "name": "Daniel",
+      "code": "daniel",
+      "index": 27,
+      "fullName": "The Book of Daniel",
+      "numChapters": 12,
+      "numVerses": "357",
+      "category": "Major Prophets",
+      "categoryIndex": 4
+    },
+    "oseias": {
+      "path": "https://www.biblestudytools.com/aa/oseias/",
+      "name": "oseias",
+      "code": "oseias"
+    },
+    "joel": {
+      "path": "https://www.biblestudytools.com/aa/joel/",
+      "name": "Joel",
+      "code": "joel",
+      "index": 29,
+      "fullName": "The Book of Joel",
+      "numChapters": 3,
+      "numVerses": "73",
+      "category": "Minor Prophets",
+      "categoryIndex": 5
+    },
+    "amos": {
+      "path": "https://www.biblestudytools.com/aa/amos/",
+      "name": "Amos",
+      "code": "amos",
+      "index": 30,
+      "fullName": "The Book of Amos",
+      "numChapters": 9,
+      "numVerses": "146",
+      "category": "Minor Prophets",
+      "categoryIndex": 5
+    },
+    "obadias": {
+      "path": "https://www.biblestudytools.com/aa/obadias/",
+      "name": "obadias",
+      "code": "obadias"
+    },
+    "jonas": {
+      "path": "https://www.biblestudytools.com/aa/jonas/",
+      "name": "jonas",
+      "code": "jonas"
+    },
+    "miqueias": {
+      "path": "https://www.biblestudytools.com/aa/miqueias/",
+      "name": "miqueias",
+      "code": "miqueias"
+    },
+    "naum": {
+      "path": "https://www.biblestudytools.com/aa/naum/",
+      "name": "naum",
+      "code": "naum"
+    },
+    "habacuque": {
+      "path": "https://www.biblestudytools.com/aa/habacuque/",
+      "name": "habacuque",
+      "code": "habacuque"
+    },
+    "sofonias": {
+      "path": "https://www.biblestudytools.com/aa/sofonias/",
+      "name": "sofonias",
+      "code": "sofonias"
+    },
+    "ageu": {
+      "path": "https://www.biblestudytools.com/aa/ageu/",
+      "name": "ageu",
+      "code": "ageu"
+    },
+    "zacarias": {
+      "path": "https://www.biblestudytools.com/aa/zacarias/",
+      "name": "zacarias",
+      "code": "zacarias"
+    },
+    "malaquias": {
+      "path": "https://www.biblestudytools.com/aa/malaquias/",
+      "name": "malaquias",
+      "code": "malaquias"
+    },
+    "mateus": {
+      "path": "https://www.biblestudytools.com/aa/mateus/",
+      "name": "mateus",
+      "code": "mateus"
+    },
+    "marcos": {
+      "path": "https://www.biblestudytools.com/aa/marcos/",
+      "name": "marcos",
+      "code": "marcos"
+    },
+    "lucas": {
+      "path": "https://www.biblestudytools.com/aa/lucas/",
+      "name": "lucas",
+      "code": "lucas"
+    },
+    "joao": {
+      "path": "https://www.biblestudytools.com/aa/joao/",
+      "name": "joao",
+      "code": "joao"
+    },
+    "atos": {
+      "path": "https://www.biblestudytools.com/aa/atos/",
+      "name": "atos",
+      "code": "atos"
+    },
+    "romanos": {
+      "path": "https://www.biblestudytools.com/aa/romanos/",
+      "name": "romanos",
+      "code": "romanos"
+    },
+    "1-corintios": {
+      "path": "https://www.biblestudytools.com/aa/1-corintios/",
+      "name": "1 corintios",
+      "code": "1-corintios"
+    },
+    "2-corintios": {
+      "path": "https://www.biblestudytools.com/aa/2-corintios/",
+      "name": "2 corintios",
+      "code": "2-corintios"
+    },
+    "galatas": {
+      "path": "https://www.biblestudytools.com/aa/galatas/",
+      "name": "galatas",
+      "code": "galatas"
+    },
+    "efesios": {
+      "path": "https://www.biblestudytools.com/aa/efesios/",
+      "name": "efesios",
+      "code": "efesios"
+    },
+    "filipenses": {
+      "path": "https://www.biblestudytools.com/aa/filipenses/",
+      "name": "filipenses",
+      "code": "filipenses"
+    },
+    "colossenses": {
+      "path": "https://www.biblestudytools.com/aa/colossenses/",
+      "name": "colossenses",
+      "code": "colossenses"
+    },
+    "1-tessalonicenses": {
+      "path": "https://www.biblestudytools.com/aa/1-tessalonicenses/",
+      "name": "1 tessalonicenses",
+      "code": "1-tessalonicenses"
+    },
+    "2-tessalonicenses": {
+      "path": "https://www.biblestudytools.com/aa/2-tessalonicenses/",
+      "name": "2 tessalonicenses",
+      "code": "2-tessalonicenses"
+    },
+    "1-timoteo": {
+      "path": "https://www.biblestudytools.com/aa/1-timoteo/",
+      "name": "1 timoteo",
+      "code": "1-timoteo"
+    },
+    "2-timoteo": {
+      "path": "https://www.biblestudytools.com/aa/2-timoteo/",
+      "name": "2 timoteo",
+      "code": "2-timoteo"
+    },
+    "tito": {
+      "path": "https://www.biblestudytools.com/aa/tito/",
+      "name": "tito",
+      "code": "tito"
+    },
+    "filemon": {
+      "path": "https://www.biblestudytools.com/aa/filemon/",
+      "name": "filemon",
+      "code": "filemon"
+    },
+    "hebreus": {
+      "path": "https://www.biblestudytools.com/aa/hebreus/",
+      "name": "hebreus",
+      "code": "hebreus"
+    },
+    "tiago": {
+      "path": "https://www.biblestudytools.com/aa/tiago/",
+      "name": "tiago",
+      "code": "tiago"
+    },
+    "1-pedro": {
+      "path": "https://www.biblestudytools.com/aa/1-pedro/",
+      "name": "1 pedro",
+      "code": "1-pedro"
+    },
+    "2-pedro": {
+      "path": "https://www.biblestudytools.com/aa/2-pedro/",
+      "name": "2 pedro",
+      "code": "2-pedro"
+    },
+    "1-joao": {
+      "path": "https://www.biblestudytools.com/aa/1-joao/",
+      "name": "1 joao",
+      "code": "1-joao"
+    },
+    "2-joao": {
+      "path": "https://www.biblestudytools.com/aa/2-joao/",
+      "name": "2 joao",
+      "code": "2-joao"
+    },
+    "3-joao": {
+      "path": "https://www.biblestudytools.com/aa/3-joao/",
+      "name": "3 joao",
+      "code": "3-joao"
+    },
+    "judas": {
+      "path": "https://www.biblestudytools.com/aa/judas/",
+      "name": "judas",
+      "code": "judas"
+    },
+    "apocalipse": {
+      "path": "https://www.biblestudytools.com/aa/apocalipse/",
+      "name": "apocalipse",
+      "code": "apocalipse"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+zip -r $1.zip $1/
+rm $1/books/*
+rm $1/chapters/*
