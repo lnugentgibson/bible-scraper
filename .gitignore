@@ -10,3 +10,5 @@
 **/chapters
 **/chapters/
 **/chapters/*
+*.zip
+**/*.zip

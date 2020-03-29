@@ -1,20 +1,587 @@
 const request = require('request');
-//const { JSDOM } = require("jsdom");
 const cheerio = require('cheerio');
 const fs = require('fs');
+const sqlite3 = require('sqlite3').verbose();
 const { URL } = require('url');
 
-var fetchDelay = 250;
-var debug = true;
+const PROTOCOLS = [
+  'http',
+  'https',
+  'ftp'
+];
 
-function getFetchDelay() {
-  return fetchDelay;
+function validProtocol(protocol) {
+  if(protocol == undefined) return false;
+  return PROTOCOLS.indexOf(protocol) > -1;
 }
 
-function setFetchDelay(delay) {
-  fetchDelay = delay;
+class Url {
+  constructor(host) {
+    var protocol = 'http',
+    username = undefined,
+    password = undefined,
+    port = 0,
+    path = [],
+    query = {},
+    hash = undefined;
+    function addPathPart(part) {
+      path.push(part);
+    }
+    function clearPath(key) {
+      path = [];
+    }
+    function setQueryVariable(key, value) {
+      query[key] = value;
+    }
+    function deleteQueryVariable(key) {
+      delete query[key];
+    }
+    Object.defineProperties(this, {
+      protocol: {
+        get: () => protocol,
+        set: v => {
+          if(v != undefined) {
+            if(validProtocol(v))
+            protocol = v;
+          }
+        }
+      },
+      username: {
+        get: () => username,
+        set: v => {
+          username = v;
+        }
+      },
+      password: {
+        get: () => password,
+        set: v => {
+          password = v;
+        }
+      },
+      port: {
+        get: () => port,
+        set: v => {
+          if(v == undefined) v = 0;
+          else {
+            var d = parseInt(v, 10);
+            if(d > -1) {
+              port = d;
+            }
+          }
+        }
+      },
+      path: {
+        get: () => [].concat(path)
+      },
+      hash: {
+        get: () => hash,
+        set: v => {
+          hash = v;
+        }
+      },
+      query: {
+        get: () => Object.assign({}, query)
+      },
+      host: {
+        get: () => host,
+        set: v => {
+          if(v != undefined) {
+            host = v;
+          }
+        }
+      },
+      addPathPart: {
+        get: () => addPathPart
+      },
+      clearPath: {
+        get: () => clearPath
+      },
+      setQueryVariable: {
+        get: () => setQueryVariable
+      },
+      deleteQueryVariable: {
+        get: () => deleteQueryVariable
+      },
+    });
+  }
+  
+  toString() {
+    const {
+      protocol,
+      username,
+      password,
+      host,
+      port,
+      path,
+      query,
+      hash
+    } = this;
+    var url = protocol + '://';
+    if(username) {
+      url += username;
+      if(password) {
+        url += ':' + password;
+      }
+      url += '@';
+    }
+    url += host;
+    if(port > 0) {
+      url += ':' + port;
+    }
+    url += '/' + path.join('/');
+    if(query) {
+      url += '?' + Object.keys(query).map(key => `${key}=${query[key]}`).join("&");
+    }
+    if(hash) {
+      url += '#' + hash;
+    }
+    return url;
+  }
 }
 
+class Loader {
+  constructor() {
+    var delay = 250;
+    var debug = true;
+    var fetching = true;
+    var fetchQueue = [];
+    function fetch() {
+      if(fetching) {
+        if(fetchQueue.length) {
+          var task = fetchQueue.splice(0, 1)[0];
+          let {url} = task;
+          request(url, (err, response, body) => {
+            if (err) {
+              if(debug) console.log("error fetching file: " + url);
+              task.error = err;
+              //reject(err);
+            }
+            else if (response.statusCode != 200) {
+              var message = "response code for file, " + url + ", is " + response.statusCode;
+              if(debug) console.log(message);
+              task.error = {message};
+              //reject(err);
+            }
+            else {
+              if(debug) console.log("file, " + url + ", successfully fetched");
+              task.body = body;
+              task.success = true;
+              //resolve({body, response});
+            }
+          });
+        }
+        setTimeout(fetch, delay);
+      }
+    }
+    fetch();
+    function queue(url, resolve, reject) {
+      var task = {url, resolve, reject};
+      fetchQueue.push(task);
+      return task;
+    }
+    
+    let db = new sqlite3.Database('./bible.sqlite3', (err) => {
+      if (err) {
+        console.error(err.message);
+      }
+      if(debug) console.log('Connected to the bible database.');
+    });
+    function initializeDatabase() {
+      /*
+      */
+      db.serialize(() => {
+        function err(title, e) {
+          if(e) {
+            console.error(`${title} failed`);
+            console.error(e.message);
+          }
+          else {
+            console.error(`${title} succeeded`);
+          }
+        }
+        db.run(`
+          CREATE TABLE BookCategory (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            category_index INTEGER NOT NULL UNIQUE,
+            name TEXT NOT NULL UNIQUE
+          )
+          `, [], err.bind(null, 'CREATE TABLE BookCategory'));
+        var meta = JSON.parse('' + fs.readFileSync('./meta.json'));
+        var books = meta.books;
+        var categories = {};
+        books.forEach(book => {
+          let {
+            category,
+            categoryIndex
+          } = book;
+          if(!categories[category]) {
+            categories[category] = [categoryIndex,category];
+          }
+        });
+        var placeholders = Object.keys(categories).map(() => '(?,?)').join(',');
+        categories = Object.keys(categories).reduce((arr, category) => arr.concat(categories[category]), []);
+        if(false) console.log(JSON.stringify(categories, null, 2));
+        db.run(`
+          INSERT INTO BookCategory(category_index,name)
+          VALUES ${placeholders};
+          `, categories, err.bind(null, 'INSERT INTO BookCategory'));
+        db.run(`
+          CREATE TABLE BookDescription (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            book_index INTEGER NOT NULL UNIQUE,
+            name TEXT NOT NULL UNIQUE,
+            full_name TEXT NOT NULL UNIQUE,
+            chapters INTEGER,
+            verses INTEGER,
+            category_id INTEGER
+          )
+          `, [], err.bind(null, 'CREATE TABLE BookDescription'));
+        placeholders = books.map(() => '((?),(?),(?),(?),(?),(?))').join(',');
+        books = books.reduce((arr, book) => {
+          let {
+            index,
+            name,
+            fullName,
+            numChapters,
+            numVerses,
+            categoryIndex
+          } = book;
+          return arr.concat([index, name, fullName, numChapters, numVerses,categoryIndex]);
+        }, []);
+        if(false) console.log(JSON.stringify(books, null, 2));
+        db.run(`
+          INSERT INTO BookDescription(book_index,name,full_name,chapters,verses,category_id)
+          VALUES ${placeholders};
+          `, books, err.bind(null, 'INSERT INTO BookDescription'));
+        db.run(`
+          CREATE TABLE Version (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            code TEXT NOT NULL UNIQUE,
+            name TEXT NOT NULL UNIQUE
+          )
+          `, [], err.bind(null, 'CREATE TABLE Version'));
+        var versions = JSON.parse('' + fs.readFileSync('./versions.json'));
+        if(false) console.log(JSON.stringify(versions, null, 2));
+        var domains = [];
+        var sources = [];
+        versions = Object.keys(versions).map((versionCode, versionId) => {
+          let {
+            name,
+            code,
+            domains: ds
+          } = versions[versionCode];
+          Object.keys(ds).forEach(domain => {
+            var domainId = domains.indexOf(domain);
+            if(domainId < 0) {
+              domains.push(domain);
+              domainId = domains.length;
+            }
+            else {
+              domainId += 1;
+            }
+            sources.push([domainId, versionId + 1, ds[domain].url]);
+          });
+          return [code, name];
+        });
+        if(false) console.log(JSON.stringify(versions, null, 2));
+        var versionCodes = {};
+        var versionNames = {};
+        versions.forEach(version => {
+          let [code, name] = version;
+          if(versionCodes[code]) {
+            console.log(`code collision: ${code}, ${name} <> ${versionCodes[code]}`);
+          }
+          else {
+            versionCodes[code] = name;
+          }
+          if(versionNames[name]) {
+            console.log(`name collision: ${name}, ${code} <> ${versionNames[name]}`);
+          }
+          else {
+            versionNames[name] = code;
+          }
+        });
+        placeholders = Object.keys(versions).map(() => '(?,?)').join(',');
+        versions = versions.reduce((arr, version) => arr.concat(version), []);
+        if(false) console.log(JSON.stringify(versions, null, 2));
+        db.run(`
+          INSERT INTO Version(code,name)
+          VALUES ${placeholders};
+          `, versions, err.bind(null, 'INSERT INTO Version'));
+        db.run(`
+          CREATE TABLE SourceDomain (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            domain TEXT NOT NULL UNIQUE
+          )
+          `, [], err.bind(null, 'CREATE TABLE SourceDomain'));
+        placeholders = Object.keys(domains).map(() => '(?)').join(',');
+        domains = domains.map(domain => domain);
+        if(false) console.log(JSON.stringify(domains, null, 2));
+        db.run(`
+          INSERT INTO SourceDomain(domain)
+          VALUES ${placeholders};
+          `, domains, err.bind(null, 'INSERT INTO SourceDomain'));
+        db.run(`
+          CREATE TABLE VersionSource (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            domain_id INTEGER NOT NULL,
+            version_id INTEGER NOT NULL,
+            url TEXT NOT NULL UNIQUE,
+            page TEXT
+          )
+          `, [], err.bind(null, 'CREATE TABLE VersionSource'));
+        placeholders = Object.keys(sources).map(() => '(?,?,?)').join(',');
+        sources = sources.reduce((arr, source) => arr.concat(source), []);
+        if(false) console.log(JSON.stringify(sources, null, 2));
+        db.run(`
+          INSERT INTO VersionSource(domain_id,version_id,url)
+          VALUES ${placeholders};
+          `, sources, err.bind(null, 'INSERT INTO VersionSource'));
+        db.run(`
+          CREATE TABLE BookSource (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            version_source_id INTEGER NOT NULL,
+            book_id INTEGER NOT NULL,
+            url TEXT NOT NULL UNIQUE,
+            page TEXT
+          )
+          `, [], err.bind(null, 'CREATE TABLE BookSource'));
+        db.run(`
+          CREATE TABLE ChapterSource (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            version_source_id INTEGER NOT NULL,
+            book_id INTEGER NOT NULL,
+            chapter INTEGER NOT NULL,
+            url TEXT NOT NULL UNIQUE,
+            page TEXT
+          )
+          `, [], err.bind(null, 'CREATE TABLE ChapterSource'));
+        db.run(`
+          CREATE TABLE VersionVerse (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            version_id INTEGER NOT NULL,
+            book_id INTEGER NOT NULL,
+            chapter INTEGER NOT NULL,
+            verse INTEGER NOT NULL,
+            content TEXT
+          )
+          `, [], err.bind(null, 'CREATE TABLE VersionVerse'));
+      });
+    }
+    function getVersionSource(version, domain) {
+      return new Promise((resolve, reject) => {
+        var sql = `
+          SELECT
+            VS.id,
+            url,
+            page
+          FROM VersionSource VS
+          LEFT JOIN Version V
+          ON version_id = V.id
+          LEFT JOIN SourceDomain D
+          ON domain_id = D.id
+          WHERE
+            code = ?
+            AND domain = ?;
+        `;
+        db.get(sql, [version, domain], (err, row) => {
+          if (err) {
+            console.error(err.message);
+            reject(err.message);
+          }
+          if(row) {
+            var url = row.url;
+            console.log(`url of VersionSource for version ${version} and domain ${domain} is ${url}`);
+            resolve(row);
+            return;
+          }
+          var msg = `No VersionSource found for version ${version} and domain ${domain}`;
+          console.log(msg);
+          reject(msg);
+        });
+      });
+    }
+    function setVersionSourcePage(version, domain, page) {
+      return new Promise((resolve, reject) => {
+        var sql = `
+          SELECT VS.id
+          FROM VersionSource VS
+          LEFT JOIN Version V
+          ON version_id = V.id
+          LEFT JOIN SourceDomain D
+          ON domain_id = D.id
+          WHERE
+            code = ?
+            AND domain = ?;
+        `;
+        db.get(sql, [version, domain], (err, row) => {
+          if (err) {
+            console.error(err.message);
+            reject(err.message);
+          }
+          if(row) {
+            let { id } = row;
+            console.log(`id of VersionSource for version ${version} and domain ${domain} is ${id}`);
+            db.run(`
+              UPDATE VersionSource
+              SET page = ?
+              WHERE id = ?;
+              `, [Buffer.from(page, 'hex'), id], err => {
+                if (err) {
+                  console.error(err.message);
+                  reject(err.message);
+                }
+                resolve();
+              });
+          }
+          else {
+            var msg = `No VersionSource found for version ${version} and domain ${domain}`;
+            console.log(msg);
+            reject(msg);
+          }
+        });
+      });
+    }
+    function close() {
+      fetching = false;
+      db.close((err) => {
+        if (err) {
+          return console.error(err.message);
+        }
+        if(debug) console.log('Close the database connection.');
+      });
+    }
+    
+    Object.defineProperties(this, {
+      delay: {
+        get: () => delay,
+        set: v => {
+          if(v == undefined) v = 250;
+          else {
+            var d = parseInt(v, 10);
+            if(d > 0) {
+              delay = d;
+            }
+          }
+        }
+      },
+      debug: {
+        get: () => debug,
+        set: v => {
+          debug = !!v;
+        }
+      },
+      queue: {
+        get: () => queue
+      },
+      initializeDatabase: {
+        get: () => initializeDatabase
+      },
+      getVersionSource: {
+        get: () => getVersionSource
+      },
+      setVersionSourcePage: {
+        get: () => setVersionSourcePage
+      },
+      close: {
+        get: () => close
+      },
+    });
+  }
+  
+  scrapeDomain(version, domain, delay) {
+    let {
+      queue,
+      getVersionSource,
+      setVersionSourcePage
+    } = this;
+    // read VersionSource.url
+    return getVersionSource(version, domain)
+    // fetch html
+    .then(source => new Promise((resolve, reject) => {
+      let { url, page } = source;
+      if(page) {
+        page = page.toString('utf8');
+        console.log(page);
+        resolve({body: page, save: false});
+        return;
+      }
+      var task = queue(url, resolve, reject);
+      function waitForSuccess() {
+        if(task.success) {
+          resolve({body: task.body, save: true});
+        }
+        else if(task.error) {
+          reject(task.error.message);
+        }
+        else {
+          setTimeout(waitForSuccess, delay);
+        }
+      }
+      waitForSuccess();
+    }))
+    // save html to VersionSource.page
+    .then(body => {
+      console.log(body.body);
+      if(body.save) {
+        console.log('saving page');
+        return setVersionSourcePage(version, domain, '' + body).then(() => body.body);
+      }
+      return body.body;
+    })
+    // parse source
+    .then(body => {
+      fs.writeFile('tmp.html', body, err => {
+        if(err) {
+          console.log(err);
+        }
+      });
+      var $ = cheerio.load(body);
+      var arr = [];
+      var names = {};
+      if(domain == 'biblestudytools') {
+        console.log('parsing biblestudytools style page');
+        $("#testament-O a, #testament-N a").each((i, a) => {
+          var $a = $(a);
+          var href = $a.attr("href");
+          var code = href.match(/\.com\/[a-z]{2,4}\/([1-3A-Za-z-]+)\//)[1];
+          var name = code.replace(/-/, " ");
+          code = code.toLowerCase();
+          var book = {
+            path: href,
+            name,
+            code
+          };
+          arr.push(book);
+          names[book.code] = book;
+        });
+      }
+      else if(domain.type == 1)
+        $(".column ul li a").each((i, a) => {
+          var $a = $(a);
+          var href = $a.attr("href");
+          var code = href.match(/\/([1-3A-Za-z-]+)-Chapter-1\//)[1];
+          var name = code.replace(/-/, " ");
+          var book = {
+            path: href,
+            name,
+            code
+          };
+          arr.push(book);
+          names[book.code] = book;
+        });
+      var books = {
+        arr,
+        names
+      };
+      console.log(JSON.stringify(books, null, 2));
+      return books;
+    });
+    // insert into BookSource
+  }
+}
+
+/*
 function URLOpt(options) {
   const {
     protocol,
@@ -28,87 +595,13 @@ function URLOpt(options) {
   } = options;
   return new URL(`${protocol ? protocol : "http"}://${username ? username + (password ? ":" + password : "") + "@" : ""}${host}${port ? ":" + port : ""}${path ? "/" + path.join("/") : ""}${query ? "?" + Object.keys(query).map(key => `${key}=${query[key]}`).join("&") : ""}${hash ? "#" + hash : ""}`);
 }
-
-function readLocalFile(file, onLoad, onEnoent, onError) {
-  if(debug) console.log("attempting to read file: " + file);
-  fs.readFile(file, (err, body) => {
-    if (err) {
-      if (err.code === 'ENOENT') {
-        if(debug) console.log("file, " + file + ", does not exist");
-        onEnoent();
-      }
-      else {
-        if(debug) console.log("error reading file: " + file);
-        onError(err);
-      }
-    }
-    else {
-      if(debug) console.log("file, " + file + ", successfully read");
-      onLoad(body);
-    }
-  });
-}
-
-function fetchRemoteFile(options, onLoad, onError) {
-  setTimeout(() => {
-    if(debug) console.log("attempting to fetch file: " + options.url);
-    request(options, (err, response, body) => {
-      if (err) {
-        if(debug) console.log("error fetching file: " + options.url);
-        onError(err);
-      }
-      else if (response.statusCode != 200) {
-        if(debug) console.log("response code for file, " + options.url + ", is " + response.statusCode);
-        onError(err);
-      }
-      else {
-        if(debug) console.log("file, " + options.url + ", successfully fetched");
-        onLoad(response, body);
-      }
-    });
-  }, fetchDelay);
-}
-
-function loadLocalFile(file) {
-  return new Promise((resolve, reject) => {
-    readLocalFile(file, body => resolve("" + body), () => reject(), () => reject());
-  });
-}
-
-function loadFile(file, options) {
-  var onLoad = (resolve, response, body) => {
-    if (false && response)
-      fs.writeFile("response.tmp", JSON.stringify(response, null, 2), err => {
-        console.log(err);
-      });
-    var html = "" + body;
-    resolve(html);
-  };
-  var onError = (reject, err) => {
-    console.log(err);
-    reject(err);
-  };
-  return new Promise((resolve, reject) => {
-    //console.log(`reading from ${file}`);
-    readLocalFile(file, onLoad.bind(null, resolve, null), () => {
-      //console.log(`file, ${file}, does not exist, fetching from ${options.url}`);
-      fetchRemoteFile(options, onLoad.bind(null, body => {
-        fs.writeFile(file, body, err => {
-          if (err)
-            console.log(err);
-        });
-        resolve(body);
-      }), onError.bind(null, reject));
-    }, onError.bind(null, reject));
-  });
-}
-
-function loadMeta() {
-  return loadLocalFile(`meta.json`).then(json => JSON.parse("" + json));
-}
+//*/
 
 function applyMetaToBookManifest(book, meta) {
-  var bookMeta = meta.books.filter(bookMeta => bookMeta.name.toLowerCase() === book.code || bookMeta.altName && bookMeta.altName.toLowerCase() === book.code)[0];
+  var bookMeta = meta.books.filter(bookMeta => {
+    if(bookMeta.name.toLowerCase() !== book.code) return false;
+    return bookMeta.altName && bookMeta.altName.toLowerCase() === book.code;
+  })[0];
   Object.assign(book, bookMeta);
 }
 
@@ -125,79 +618,6 @@ function applyMetaToManifest(books, meta) {
       book.name = bookMeta.name.replace(/-/, " ");
       book.code = bookMeta.name.toLowerCase();
     }
-  });
-}
-
-function parseIndex(domain, html) {
-  var $ = cheerio.load(html);
-  var arr = [];
-  var names = {};
-  if(domain.type == 0)
-    $("#testament-O a, #testament-N a").each((i, a) => {
-      var $a = $(a);
-      var href = $a.attr("href");
-      var code = href.match(/\.com\/[a-z]{2,4}\/([1-3A-Za-z-]+)\//)[1];
-      var name = code.replace(/-/, " ");
-      code = code.toLowerCase();
-      var book = {
-        path: href,
-        name,
-        code
-      };
-      arr.push(book);
-      names[book.code] = book;
-    });
-  else if(domain.type == 1)
-    $(".column ul li a").each((i, a) => {
-      var $a = $(a);
-      var href = $a.attr("href");
-      var code = href.match(/\/([1-3A-Za-z-]+)-Chapter-1\//)[1];
-      var name = code.replace(/-/, " ");
-      var book = {
-        path: href,
-        name,
-        code
-      };
-      arr.push(book);
-      names[book.code] = book;
-    });
-  var books = {
-    arr,
-    names
-  };
-  fs.writeFile(`${domain.name}/manifest.json`, JSON.stringify(books, null, 2), "utf8", err => {
-    if (err)
-      console.log(err);
-  });
-  return books;
-}
-
-function loadManifest(domain) {
-  return loadLocalFile(`${domain.name}/manifest.json`).then(json => {
-    let { arr } = JSON.parse(json);
-    var names = {};
-    arr.forEach(book => {
-      names[book.code] = book;
-    });
-    return {
-      arr,
-      names
-    };
-  }).catch(() => loadFile(`${domain.name}/homepage.html`, {
-    url: domain.url
-  }).then(html => parseIndex(domain, html)));
-}
-
-function saveManifest(domain, books) {
-  return new Promise((resolve, reject) => {
-    fs.writeFile(`${domain.name}/manifest.json`, JSON.stringify(books, null, 2), "utf8", err => {
-      if (err) {
-        console.log(err);
-        reject(err);
-      }
-      else
-        resolve();
-    });
   });
 }
 
@@ -341,74 +761,13 @@ function addAllChapters(domain, book) {
   return promise;
 }
 
-function scrapeDomain(domain, promise) {
-  if(!promise)
-    promise = Promise.resolve();
-  fs.mkdir(domain.name, err => {
-    if (err) {
-      if (err.code == 'EEXIST')
-        return;
-      console.log("error making directory" + domain.name);
-      console.log(err);
-    }
-  });
-  fs.mkdir(`${domain.name}/books`, err => {
-    if (err) {
-      if (err.code == 'EEXIST')
-        return;
-      console.log("error making directory" + domain.name);
-      console.log(err);
-    }
-  });
-  fs.mkdir(`${domain.name}/chapters`, err => {
-    if (err) {
-      if (err.code == 'EEXIST')
-        return;
-      console.log("error making directory" + domain.name);
-      console.log(err);
-    }
-  });
-  promise.then(() => loadManifest(domain))
-  .then(books => {
-    return loadMeta().then(meta => {
-      applyMetaToManifest(books, meta);
-      return meta;
-    }).then(meta => {
-      return {
-        books,
-        meta
-      };
-    });
-  }).then(data => {
-    return saveManifest(domain, data.books).then(() => data);
-  })
-  .then(data => {
-    return data.books.arr.reduce((chain, book) => {
-      return chain.then(() => {
-        return loadBookManifest(domain, book).then(book => {
-          applyMetaToBookManifest(book, data.meta);
-          data[book.code] = book;
-          return addAllChapters(domain, book).then(() => data);
-        });
-      });
-    }, Promise.resolve());
-  }).catch(err => {
-    console.log(err);
-  });
-}
-
 module.exports = {
-  getFetchDelay,
-  setFetchDelay,
-  URLOpt,
-  loadMeta,
+  Url,
+  Loader,
   applyMetaToBookManifest,
   applyMetaToManifest,
-  loadManifest,
-  saveManifest,
   loadBookManifest,
   loadChapter,
   addChapter,
-  addAllChapters,
-  scrapeDomain
+  addAllChapters
 };

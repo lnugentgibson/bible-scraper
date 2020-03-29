@@ -1,0 +1,24 @@
+{
+  "name": "bible-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lnugentgibson/bible-scraper.git"
+  },
+  "author": "L Nugent Gibson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lnugentgibson/bible-scraper/issues"
+  },
+  "homepage": "https://github.com/lnugentgibson/bible-scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0",
+    "sqlite3": "^4.1.1"
+  }
+}

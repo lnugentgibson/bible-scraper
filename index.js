@@ -1,3 +1,4 @@
+/*
 const {
   setFetchDelay,
   scrapeDomain
@@ -5,6 +6,7 @@ const {
 const versions = require("./versions");
 
 setFetchDelay(100);
+*/
 
 /*
 Object.keys(versions).reduce((chain, vcode, vi) => {
@@ -19,4 +21,13 @@ Object.keys(versions).reduce((chain, vcode, vi) => {
   }, chain);
 }, Promise.resolve());
 */
-scrapeDomain(versions.aa.domains.biblestudytools);
+const {
+  Loader
+} = require("./load.js");
+
+var loader = new Loader();
+loader.initializeDatabase();
+// loader.getVersionSourceUrl('kjv', 'biblestudytools');
+loader.scrapeDomain('kjv', 'biblestudytools').then(() => {
+  loader.close();
+});
