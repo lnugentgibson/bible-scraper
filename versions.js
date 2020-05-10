@@ -566,6 +566,21 @@ var versions = {
     }
   } //TODO
 };
+
+/*
+aa: {
+  name: "Almeida Atualizada (Portuguese)",
+  code: "aa",
+  domains: {
+    biblestudytools: {
+      name: "aa.biblestudytools.com",
+      url: "https://www.biblestudytools.com/aa",
+      type: 0
+    }
+  }
+},
+*/
+  
 Object.keys(versions).forEach(vcode => {
   var version = versions[vcode];
   Object.keys(version.domains).forEach(dcode => {
@@ -573,6 +588,37 @@ Object.keys(versions).forEach(vcode => {
     domain.version = version.code;
     domain.code = vcode;
   });
+});
+
+var ruby = '';
+
+var domains = {};
+
+ruby += Object.keys(versions).map(code => {
+  let {
+    name,
+    domains: vdomains
+  } = versions[code];
+  var ruby = `${code} = Version.create(code: '${code}', name: "${name}")`;
+  Object.keys(vdomains).forEach(domain => {
+    if(!domains[domain]) {
+      ruby += `\n${domain} = Domain.create(domain: "${domain}")`;
+      domains[domain] = true;
+    }
+    let {
+      url
+    } = vdomains[domain];
+    ruby += `\nVersionSource.create(domain_id: ${domain}.id, version_id: ${code}.id, url: "${url}")`;
+  });
+  return ruby;
+}).join('\n\n');
+
+const fs = require("fs");
+
+fs.writeFile('versions.rb', ruby, 'utf8', err => {
+  if(err) {
+    console.error(err);
+  }
 });
 
 module.exports = versions;
