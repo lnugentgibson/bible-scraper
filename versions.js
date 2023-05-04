@@ -213,7 +213,7 @@ var versions = {
     code: "kjv",
     domains: {
       kingjamesbibleonline: {
-        code: "kingjamesbibleonline.org",
+        name: "kingjamesbibleonline.org",
         url: "https://www.kingjamesbibleonline.org",
         type: 1
       },
@@ -580,6 +580,8 @@ aa: {
   }
 },
 */
+
+var domains = {};
   
 Object.keys(versions).forEach(vcode => {
   var version = versions[vcode];
@@ -587,12 +589,24 @@ Object.keys(versions).forEach(vcode => {
     var domain = version.domains[dcode];
     domain.version = version.code;
     domain.code = vcode;
+    
+    var Domain = domains[dcode];
+    if(!Domain) {
+      Domain = {
+        code: dcode
+      };
+      if(dcode == 'biblestudytools')
+        Domain.url = 'https://www.biblestudytools.com';
+      if(dcode == 'kingjamesbibleonline')
+        Domain.url = 'https://www.kingjamesbibleonline.com';
+    }
+    
+    domain.domain = Domain;
   });
 });
 
 var ruby = '';
-
-var domains = {};
+var rdomains = {};
 
 ruby += Object.keys(versions).map(code => {
   let {
@@ -601,9 +615,9 @@ ruby += Object.keys(versions).map(code => {
   } = versions[code];
   var ruby = `${code} = Version.create(code: '${code}', name: "${name}")`;
   Object.keys(vdomains).forEach(domain => {
-    if(!domains[domain]) {
+    if(!rdomains[domain]) {
       ruby += `\n${domain} = Domain.create(domain: "${domain}")`;
-      domains[domain] = true;
+      rdomains[domain] = true;
     }
     let {
       url
@@ -617,6 +631,79 @@ const fs = require("fs");
 
 fs.writeFile('versions.rb', ruby, 'utf8', err => {
   if(err) {
+    console.error(err);
+  }
+});
+
+/*
+aa: {
+  name: "Almeida Atualizada (Portuguese)",
+  code: "aa",
+  domains: {
+    biblestudytools: {
+      name: "aa.biblestudytools.com",
+      url: "https://www.biblestudytools.com/aa",
+      type: 0
+    }
+  }
+},
+*/
+
+fs.writeFile('versions.rb', ruby, 'utf8', err => {
+  if(err) {
+    console.error(err);
+  }
+});
+
+var versionInsert = Object.keys(versions).map(vcode => {
+  let {
+    name,
+    code
+  } = versions[vcode];
+  return `INSERT INTO version VALUES('${name.replace(/'/g, "''")}', '${code}', '${vcode}');`;
+}).join('\n');
+
+var sourceInsert = Object.keys(versions).map(vcode => {
+  var domains = versions[vcode].domains;
+  return Object.keys(domains).map(dcode => {
+    let {
+      name,
+      url,
+      code,
+    } = domains[dcode];
+    return `INSERT INTO source (name, url, version_id, domain_id) SELECT '${name}', '${url}', V.id, D.id FROM version V, domain D WHERE V.ucode = '${code}' AND D.name = '${dcode}');`;
+  }).join('\n');
+}).flat().join('\n');
+
+fs.writeFile('versions.sql', `
+CREATE TABLE version (
+ id integer PRIMARY KEY AUTOINCREMENT,
+ name text NOT NULL,
+ code text NOT NULL,
+ ucode text NOT NULL
+);
+
+${versionInsert}
+
+CREATE TABLE domain (
+ id integer PRIMARY KEY AUTOINCREMENT,
+ name text NOT NULL,
+ url text NOT NULL
+);
+INSERT INTO domain VALUES('biblestudytools', 'https://www.biblestudytools.com');
+INSERT INTO domain VALUES('kingjamesbibleonline', 'https://www.kingjamesbibleonline.com');
+
+CREATE TABLE source (
+ id integer PRIMARY KEY AUTOINCREMENT,
+ name text UNIQUE NOT NULL,
+ url text NOT NULL,
+ version_id integer REFERENCES version,
+ domain_id integer REFERENCES domain
+);
+
+${sourceInsert}
+`, 'utf8', err => {
+  if (err) {
     console.error(err);
   }
 });

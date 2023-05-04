@@ -6,13 +6,12 @@ ActiveRecord::Base.establish_connection(
   database: './bible.sqlite3'
 )
 
-#=begin
 ActiveRecord::Schema.define do
-  create_table :categories, force: true do |t|
+  create_table :categories, if_not_exists: true do |t|
     t.integer :category_index
     t.string :name
   end
-  create_table :books, force: true do |t|
+  create_table :books, if_not_exists: true do |t|
     t.integer :book_index
     t.string :name
     t.string :full_name
@@ -20,37 +19,37 @@ ActiveRecord::Schema.define do
     t.integer :verses
     t.integer :category_id
   end
-  create_table :book_names, force: true do |t|
+  create_table :book_names, if_not_exists: true do |t|
     t.integer :book_id
     t.string :name
   end
-  create_table :versions, force: true do |t|
+  create_table :versions, if_not_exists: true do |t|
     t.string :code
     t.string :name
   end
-  create_table :domains, force: true do |t|
+  create_table :domains, if_not_exists: true do |t|
     t.string :domain
   end
-  create_table :version_sources, force: true do |t|
+  create_table :version_sources, if_not_exists: true do |t|
     t.integer :domain_id
     t.integer :version_id
     t.string :url
     t.text :page
   end
-  create_table :book_sources, force: true do |t|
+  create_table :book_sources, if_not_exists: true do |t|
     t.integer :version_source_id
     t.integer :book_id
     t.string :url
     t.text :page
   end
-  create_table :chapter_sources, force: true do |t|
+  create_table :chapter_sources, if_not_exists: true do |t|
     t.integer :book_source_id
     t.integer :book_id
     t.integer :chapter
     t.string :url
     t.text :page
   end
-  create_table :version_verses, force: true do |t|
+  create_table :version_verses, if_not_exists: true do |t|
     t.integer :chapter_source_id
     t.integer :book_id
     t.integer :chapter
@@ -60,59 +59,116 @@ ActiveRecord::Schema.define do
     t.text :content
   end
 end
-#=end
 
 class ApplicationRecord < ActiveRecord::Base
   self.abstract_class = true
 end
-
 class Category < ApplicationRecord
   has_many :books
 end
-
 class Book < ApplicationRecord
   belongs_to :category
 end
-
 class BookName < ApplicationRecord
   belongs_to :book
 end
-
 class Version < ApplicationRecord
   has_many :version_sources
 end
-
 class Domain < ApplicationRecord
   has_many :version_sources
 end
-
 class VersionSource < ApplicationRecord
   belongs_to :domain
   belongs_to :version
   has_many :book_sources
 end
-
 class BookSource < ApplicationRecord
   belongs_to :version_source
   belongs_to :book
   has_many :chapter_sources
 end
-
 class ChapterSource < ApplicationRecord
   belongs_to :book_source
   belongs_to :book
   has_many :verse_sources
 end
-
 class VersionVerse < ApplicationRecord
   belongs_to :chapter_source
   belongs_to :book
 end
 
-#=begin
-load 'books.rb'
-load 'versions.rb'
-#=end
+def loadBooks
+  meta_file = File.open("meta.json")
+  meta = JSON.parse(meta_file.read)
+  books = meta["books"]
+  books.each do |book_data|
+    index = book_data["index"]
+    book = Book.find_by book_index: index
+    if book.nil?
+      category_index = book_data["categoryIndex"]
+      category = Category.find_by category_index: category_index
+      if category.nil?
+        category = Category.create category_index: category_index, name: book_data["category"]
+      end
+      book = Book.new
+      book.book_index = index
+      book.name = book_data["name"]
+      book.full_name = book_data["fullName"]
+      book.chapters = book_data["numChapters"]
+      #book.verses = book_data["numVerses"]
+      book.category = category
+      book.save()
+    end
+  end
+  meta_file.close
+end
+
+def loadVersions
+  versions_file = File.open("versions.json")
+  versions = JSON.parse(versions_file.read)
+  versions.each do |code, version_data|
+    #puts code
+    #puts version_data.to_s
+    version = Version.find_by code: code
+    if version.nil?
+      version = Version.create code: code, name: version_data["name"]
+    end
+    version_data["domains"].each do |domain_name,version_source_data|
+      #puts domain_name
+      #puts version_source_data.to_s
+      domain = Domain.find_by domain: domain_name
+      if domain.nil?
+        domain = Domain.create domain: domain_name
+      end
+      version_source = VersionSource.find_by domain: domain, version: version
+      if version_source.nil?
+        version_source = VersionSource.create domain: domain, version: version, url: version_source_data["url"]
+      end
+    end
+  end
+  versions_file.close
+end
+
+def loadNames
+  names = File.read("names.csv").split "\n"
+  names.each_with_index do |name_data, i|
+    #puts name_data
+    #puts i
+    if i > 0
+      book_index, *, book_name = name_data.split "\t"
+      book = Book.find_by book_index: book_index
+      if not book.nil?
+        book_name = BookName.create book: book, name: book_name
+        #puts book.name + " -> " + book_name.name
+      end
+    end
+  end
+end
+
+loadBooks()
+loadVersions()
+loadNames()
 
 #require 'net/http'
 require 'nokogiri'   
