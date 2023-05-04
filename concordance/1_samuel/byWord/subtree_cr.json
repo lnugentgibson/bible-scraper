@@ -1,0 +1,211 @@
+{
+  "children": {
+    "ie": {
+      "children": {
+        "d": {
+          "children": {},
+          "val": {
+            "id": 636,
+            "occurrences": [
+              {
+                "book": "1-samuel",
+                "chapter": 4,
+                "verse": 13,
+                "word_index": 37,
+                "char_index": 175
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 5,
+                "verse": 10,
+                "word_index": 25,
+                "char_index": 118
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 7,
+                "verse": 9,
+                "word_index": 19,
+                "char_index": 101
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 12,
+                "verse": 8,
+                "word_index": 9,
+                "char_index": 49
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 12,
+                "verse": 10,
+                "word_index": 2,
+                "char_index": 9
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 15,
+                "verse": 11,
+                "word_index": 32,
+                "char_index": 163
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 17,
+                "verse": 8,
+                "word_index": 4,
+                "char_index": 17
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 20,
+                "verse": 37,
+                "word_index": 17,
+                "char_index": 86
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 20,
+                "verse": 38,
+                "word_index": 2,
+                "char_index": 13
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 24,
+                "verse": 8,
+                "word_index": 11,
+                "char_index": 58
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 26,
+                "verse": 14,
+                "word_index": 2,
+                "char_index": 10
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 28,
+                "verse": 12,
+                "word_index": 7,
+                "char_index": 35
+              }
+            ]
+          }
+        },
+        "st": {
+          "children": {},
+          "val": {
+            "id": 1949,
+            "occurrences": [
+              {
+                "book": "1-samuel",
+                "chapter": 26,
+                "verse": 14,
+                "word_index": 27,
+                "char_index": 143
+              }
+            ]
+          }
+        }
+      }
+    },
+    "ouch": {
+      "children": {},
+      "val": {
+        "id": 497,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 2,
+            "verse": 36,
+            "word_index": 18,
+            "char_index": 85
+          }
+        ]
+      }
+    },
+    "use": {
+      "children": {},
+      "val": {
+        "id": 1942,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 26,
+            "verse": 11,
+            "word_index": 31,
+            "char_index": 157
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 26,
+            "verse": 12,
+            "word_index": 7,
+            "char_index": 32
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 26,
+            "verse": 16,
+            "word_index": 41,
+            "char_index": 193
+          }
+        ]
+      }
+    },
+    "y": {
+      "children": {
+        "ing": {
+          "children": {},
+          "val": {
+            "id": 637,
+            "occurrences": [
+              {
+                "book": "1-samuel",
+                "chapter": 4,
+                "verse": 14,
+                "word_index": 8,
+                "char_index": 36
+              }
+            ]
+          }
+        }
+      },
+      "val": {
+        "id": 706,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 5,
+            "verse": 12,
+            "word_index": 13,
+            "char_index": 66
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 7,
+            "verse": 8,
+            "word_index": 11,
+            "char_index": 57
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 8,
+            "verse": 18,
+            "word_index": 3,
+            "char_index": 13
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 9,
+            "verse": 16,
+            "word_index": 51,
+            "char_index": 252
+          }
+        ]
+      }
+    }
+  }
+}

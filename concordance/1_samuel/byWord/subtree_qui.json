@@ -1,0 +1,50 @@
+{
+  "children": {
+    "ckly": {
+      "children": {},
+      "val": {
+        "id": 1674,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 20,
+            "verse": 19,
+            "word_index": 12,
+            "char_index": 62
+          }
+        ]
+      }
+    },
+    "t": {
+      "children": {
+        "d": {
+          "children": {},
+          "val": {
+            "id": 614,
+            "occurrences": [
+              {
+                "book": "1-samuel",
+                "chapter": 4,
+                "verse": 9,
+                "word_index": 3,
+                "char_index": 15
+              }
+            ]
+          }
+        }
+      },
+      "val": {
+        "id": 617,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 4,
+            "verse": 9,
+            "word_index": 24,
+            "char_index": 128
+          }
+        ]
+      }
+    }
+  }
+}

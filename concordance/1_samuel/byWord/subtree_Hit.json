@@ -1,0 +1,34 @@
+{
+  "children": {
+    "herto": {
+      "children": {},
+      "val": {
+        "id": 827,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 7,
+            "verse": 12,
+            "word_index": 21,
+            "char_index": 107
+          }
+        ]
+      }
+    },
+    "tite": {
+      "children": {},
+      "val": {
+        "id": 1929,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 26,
+            "verse": 6,
+            "word_index": 8,
+            "char_index": 46
+          }
+        ]
+      }
+    }
+  }
+}

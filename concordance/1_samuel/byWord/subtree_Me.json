@@ -1,0 +1,63 @@
+{
+  "children": {
+    "holathite": {
+      "children": {},
+      "val": {
+        "id": 1605,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 18,
+            "verse": 19,
+            "word_index": 26,
+            "char_index": 127
+          }
+        ]
+      }
+    },
+    "lchishua": {
+      "children": {},
+      "val": {
+        "id": 1346,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 14,
+            "verse": 49,
+            "word_index": 10,
+            "char_index": 51
+          }
+        ]
+      }
+    },
+    "rab": {
+      "children": {},
+      "val": {
+        "id": 1348,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 14,
+            "verse": 49,
+            "word_index": 25,
+            "char_index": 136
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 18,
+            "verse": 17,
+            "word_index": 9,
+            "char_index": 49
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 18,
+            "verse": 19,
+            "word_index": 9,
+            "char_index": 37
+          }
+        ]
+      }
+    }
+  }
+}

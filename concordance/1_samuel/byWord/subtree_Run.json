@@ -1,0 +1,15 @@
+{
+  "children": {},
+  "val": {
+    "id": 1700,
+    "occurrences": [
+      {
+        "book": "1-samuel",
+        "chapter": 20,
+        "verse": 36,
+        "word_index": 6,
+        "char_index": 26
+      }
+    ]
+  }
+}

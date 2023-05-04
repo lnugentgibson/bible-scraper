@@ -1,0 +1,34 @@
+{
+  "children": {
+    "nghill": {
+      "children": {},
+      "val": {
+        "id": 322,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 2,
+            "verse": 8,
+            "word_index": 16,
+            "char_index": 75
+          }
+        ]
+      }
+    },
+    "st": {
+      "children": {},
+      "val": {
+        "id": 320,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 2,
+            "verse": 8,
+            "word_index": 8,
+            "char_index": 34
+          }
+        ]
+      }
+    }
+  }
+}

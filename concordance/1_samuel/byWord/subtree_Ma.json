@@ -1,0 +1,118 @@
+{
+  "children": {
+    "ke": {
+      "children": {},
+      "val": {
+        "id": 1067,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 11,
+            "verse": 1,
+            "word_index": 19,
+            "char_index": 114
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 20,
+            "verse": 38,
+            "word_index": 6,
+            "char_index": 34
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 29,
+            "verse": 4,
+            "word_index": 19,
+            "char_index": 106
+          }
+        ]
+      }
+    },
+    "lchishua": {
+      "children": {},
+      "val": {
+        "id": 2087,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 31,
+            "verse": 2,
+            "word_index": 19,
+            "char_index": 116
+          }
+        ]
+      }
+    },
+    "o": {
+      "children": {
+        "ch": {
+          "children": {},
+          "val": {
+            "id": 1970,
+            "occurrences": [
+              {
+                "book": "1-samuel",
+                "chapter": 27,
+                "verse": 2,
+                "word_index": 21,
+                "char_index": 104
+              }
+            ]
+          }
+        },
+        "n": {
+          "children": {},
+          "val": {
+            "id": 1802,
+            "occurrences": [
+              {
+                "book": "1-samuel",
+                "chapter": 23,
+                "verse": 24,
+                "word_index": 19,
+                "char_index": 94
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 23,
+                "verse": 25,
+                "word_index": 26,
+                "char_index": 128
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 23,
+                "verse": 25,
+                "word_index": 40,
+                "char_index": 204
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 25,
+                "verse": 2,
+                "word_index": 6,
+                "char_index": 23
+              }
+            ]
+          }
+        }
+      }
+    },
+    "tri": {
+      "children": {},
+      "val": {
+        "id": 1048,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 10,
+            "verse": 21,
+            "word_index": 17,
+            "char_index": 87
+          }
+        ]
+      }
+    }
+  }
+}

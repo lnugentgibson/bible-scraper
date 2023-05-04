@@ -1,0 +1,97 @@
+{
+  "children": {
+    "ah": {
+      "children": {},
+      "val": {
+        "id": 243,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 1,
+            "verse": 24,
+            "word_index": 17,
+            "char_index": 84
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 17,
+            "verse": 17,
+            "word_index": 13,
+            "char_index": 64
+          }
+        ]
+      }
+    },
+    "od": {
+      "children": {},
+      "val": {
+        "id": 400,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 2,
+            "verse": 18,
+            "word_index": 13,
+            "char_index": 74
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 2,
+            "verse": 28,
+            "word_index": 27,
+            "char_index": 124
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 14,
+            "verse": 3,
+            "word_index": 26,
+            "char_index": 127
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 21,
+            "verse": 9,
+            "word_index": 28,
+            "char_index": 148
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 22,
+            "verse": 18,
+            "word_index": 38,
+            "char_index": 194
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 23,
+            "verse": 6,
+            "word_index": 22,
+            "char_index": 107
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 23,
+            "verse": 9,
+            "word_index": 20,
+            "char_index": 119
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 30,
+            "verse": 7,
+            "word_index": 17,
+            "char_index": 89
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 30,
+            "verse": 7,
+            "word_index": 23,
+            "char_index": 129
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "children": {
+    "leth": {
+      "children": {},
+      "val": {
+        "id": 1075,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 11,
+            "verse": 5,
+            "word_index": 15,
+            "char_index": 76
+          }
+        ]
+      }
+    },
+    "r": {
+      "children": {},
+      "val": {
+        "id": 1555,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 17,
+            "verse": 44,
+            "word_index": 20,
+            "char_index": 94
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 17,
+            "verse": 46,
+            "word_index": 40,
+            "char_index": 198
+          }
+        ]
+      }
+    }
+  }
+}

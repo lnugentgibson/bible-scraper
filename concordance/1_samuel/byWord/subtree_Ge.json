@@ -1,0 +1,64 @@
+{
+  "children": {
+    "ba": {
+      "children": {},
+      "val": {
+        "id": 1174,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 13,
+            "verse": 3,
+            "word_index": 11,
+            "char_index": 63
+          }
+        ]
+      }
+    },
+    "shurites": {
+      "children": {},
+      "val": {
+        "id": 1978,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 27,
+            "verse": 8,
+            "word_index": 10,
+            "char_index": 47
+          }
+        ]
+      }
+    },
+    "t": {
+      "children": {},
+      "val": {
+        "id": 1854,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 25,
+            "verse": 5,
+            "word_index": 14,
+            "char_index": 69
+          }
+        ]
+      }
+    },
+    "zrites": {
+      "children": {},
+      "val": {
+        "id": 1979,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 27,
+            "verse": 8,
+            "word_index": 13,
+            "char_index": 67
+          }
+        ]
+      }
+    }
+  }
+}

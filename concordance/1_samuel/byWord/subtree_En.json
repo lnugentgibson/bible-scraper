@@ -1,0 +1,56 @@
+{
+  "children": {
+    "dor": {
+      "children": {},
+      "val": {
+        "id": 2001,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 28,
+            "verse": 7,
+            "word_index": 42,
+            "char_index": 207
+          }
+        ]
+      }
+    },
+    "gedi": {
+      "children": {},
+      "val": {
+        "id": 1808,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 23,
+            "verse": 29,
+            "word_index": 12,
+            "char_index": 60
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 24,
+            "verse": 1,
+            "word_index": 26,
+            "char_index": 145
+          }
+        ]
+      }
+    },
+    "quire": {
+      "children": {},
+      "val": {
+        "id": 1574,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 17,
+            "verse": 56,
+            "word_index": 4,
+            "char_index": 19
+          }
+        ]
+      }
+    }
+  }
+}

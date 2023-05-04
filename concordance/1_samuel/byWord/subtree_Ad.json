@@ -1,0 +1,34 @@
+{
+  "children": {
+    "riel": {
+      "children": {},
+      "val": {
+        "id": 1604,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 18,
+            "verse": 19,
+            "word_index": 24,
+            "char_index": 116
+          }
+        ]
+      }
+    },
+    "ullam": {
+      "children": {},
+      "val": {
+        "id": 1745,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 22,
+            "verse": 1,
+            "word_index": 9,
+            "char_index": 57
+          }
+        ]
+      }
+    }
+  }
+}

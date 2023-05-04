@@ -1,0 +1,41 @@
+{
+  "children": {
+    "ek": {
+      "children": {},
+      "val": {
+        "id": 575,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 4,
+            "verse": 1,
+            "word_index": 27,
+            "char_index": 158
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 29,
+            "verse": 1,
+            "word_index": 9,
+            "char_index": 58
+          }
+        ]
+      }
+    },
+    "iah": {
+      "children": {},
+      "val": {
+        "id": 902,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 9,
+            "verse": 1,
+            "word_index": 26,
+            "char_index": 123
+          }
+        ]
+      }
+    }
+  }
+}

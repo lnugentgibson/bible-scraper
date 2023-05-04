@@ -1,0 +1,83 @@
+{
+  "children": {
+    "rjathjearim": {
+      "children": {},
+      "val": {
+        "id": 795,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 6,
+            "verse": 21,
+            "word_index": 8,
+            "char_index": 47
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 7,
+            "verse": 1,
+            "word_index": 4,
+            "char_index": 15
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 7,
+            "verse": 2,
+            "word_index": 10,
+            "char_index": 44
+          }
+        ]
+      }
+    },
+    "sh": {
+      "children": {},
+      "val": {
+        "id": 898,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 9,
+            "verse": 1,
+            "word_index": 10,
+            "char_index": 48
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 9,
+            "verse": 3,
+            "word_index": 4,
+            "char_index": 17
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 9,
+            "verse": 3,
+            "word_index": 11,
+            "char_index": 51
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 10,
+            "verse": 11,
+            "word_index": 36,
+            "char_index": 188
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 10,
+            "verse": 21,
+            "word_index": 25,
+            "char_index": 124
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 14,
+            "verse": 51,
+            "word_index": 1,
+            "char_index": 4
+          }
+        ]
+      }
+    }
+  }
+}

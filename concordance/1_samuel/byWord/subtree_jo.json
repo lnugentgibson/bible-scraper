@@ -1,0 +1,49 @@
+{
+  "children": {
+    "ineda": {
+      "children": {},
+      "val": {
+        "id": 577,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 4,
+            "verse": 2,
+            "word_index": 12,
+            "char_index": 74
+          }
+        ]
+      }
+    },
+    "urney": {
+      "children": {},
+      "val": {
+        "id": 1390,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 15,
+            "verse": 18,
+            "word_index": 7,
+            "char_index": 28
+          }
+        ]
+      }
+    },
+    "y": {
+      "children": {},
+      "val": {
+        "id": 1590,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 18,
+            "verse": 6,
+            "word_index": 39,
+            "char_index": 205
+          }
+        ]
+      }
+    }
+  }
+}

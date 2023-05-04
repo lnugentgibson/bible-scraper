@@ -1,0 +1,160 @@
+{
+  "children": {
+    "in": {
+      "children": {},
+      "val": {
+        "id": 1155,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 12,
+            "verse": 21,
+            "word_index": 11,
+            "char_index": 51
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 12,
+            "verse": 21,
+            "word_index": 21,
+            "char_index": 110
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 25,
+            "verse": 21,
+            "word_index": 6,
+            "char_index": 30
+          }
+        ]
+      }
+    },
+    "l": {
+      "children": {
+        "iant": {
+          "children": {
+            "c": {
+              "children": {},
+              "val": {
+                "id": 1603,
+                "occurrences": [
+                  {
+                    "book": "1-samuel",
+                    "chapter": 18,
+                    "verse": 17,
+                    "word_index": 20,
+                    "char_index": 99
+                  }
+                ]
+              }
+            }
+          },
+          "val": {
+            "id": 1356,
+            "occurrences": [
+              {
+                "book": "1-samuel",
+                "chapter": 14,
+                "verse": 52,
+                "word_index": 22,
+                "char_index": 110
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 16,
+                "verse": 18,
+                "word_index": 26,
+                "char_index": 139
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 26,
+                "verse": 15,
+                "word_index": 9,
+                "char_index": 40
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 31,
+                "verse": 12,
+                "word_index": 2,
+                "char_index": 8
+              }
+            ]
+          }
+        },
+        "ley": {
+          "children": {},
+          "val": {
+            "id": 764,
+            "occurrences": [
+              {
+                "book": "1-samuel",
+                "chapter": 6,
+                "verse": 13,
+                "word_index": 11,
+                "char_index": 64
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 13,
+                "verse": 18,
+                "word_index": 22,
+                "char_index": 121
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 15,
+                "verse": 5,
+                "word_index": 13,
+                "char_index": 57
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 17,
+                "verse": 2,
+                "word_index": 14,
+                "char_index": 74
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 17,
+                "verse": 3,
+                "word_index": 25,
+                "char_index": 123
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 17,
+                "verse": 19,
+                "word_index": 13,
+                "char_index": 59
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 17,
+                "verse": 52,
+                "word_index": 20,
+                "char_index": 107
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 21,
+                "verse": 9,
+                "word_index": 15,
+                "char_index": 83
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 31,
+                "verse": 7,
+                "word_index": 14,
+                "char_index": 62
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

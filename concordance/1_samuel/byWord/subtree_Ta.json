@@ -1,0 +1,78 @@
+{
+  "children": {
+    "bor": {
+      "children": {},
+      "val": {
+        "id": 1009,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 10,
+            "verse": 3,
+            "word_index": 16,
+            "char_index": 79
+          }
+        ]
+      }
+    },
+    "ke": {
+      "children": {},
+      "val": {
+        "id": 914,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 9,
+            "verse": 3,
+            "word_index": 17,
+            "char_index": 78
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 16,
+            "verse": 2,
+            "word_index": 19,
+            "char_index": 84
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 17,
+            "verse": 17,
+            "word_index": 7,
+            "char_index": 35
+          }
+        ]
+      }
+    },
+    "lk": {
+      "children": {},
+      "val": {
+        "id": 278,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 2,
+            "verse": 3,
+            "word_index": 0,
+            "char_index": 0
+          }
+        ]
+      }
+    },
+    "rryc": {
+      "children": {},
+      "val": {
+        "id": 1262,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 14,
+            "verse": 9,
+            "word_index": 6,
+            "char_index": 26
+          }
+        ]
+      }
+    }
+  }
+}

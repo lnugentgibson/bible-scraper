@@ -1,0 +1,43 @@
+{
+  "children": {},
+  "val": {
+    "id": 961,
+    "occurrences": [
+      {
+        "book": "1-samuel",
+        "chapter": 9,
+        "verse": 13,
+        "word_index": 48,
+        "char_index": 244
+      },
+      {
+        "book": "1-samuel",
+        "chapter": 15,
+        "verse": 6,
+        "word_index": 8,
+        "char_index": 44
+      },
+      {
+        "book": "1-samuel",
+        "chapter": 20,
+        "verse": 29,
+        "word_index": 40,
+        "char_index": 186
+      },
+      {
+        "book": "1-samuel",
+        "chapter": 22,
+        "verse": 5,
+        "word_index": 14,
+        "char_index": 72
+      },
+      {
+        "book": "1-samuel",
+        "chapter": 23,
+        "verse": 26,
+        "word_index": 25,
+        "char_index": 120
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "children": {
+    "e": {
+      "children": {},
+      "val": {
+        "id": 515,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 3,
+            "verse": 3,
+            "word_index": 1,
+            "char_index": 4
+          }
+        ]
+      }
+    },
+    "red": {
+      "children": {},
+      "val": {
+        "id": 1960,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 26,
+            "verse": 21,
+            "word_index": 36,
+            "char_index": 180
+          }
+        ]
+      }
+    }
+  }
+}

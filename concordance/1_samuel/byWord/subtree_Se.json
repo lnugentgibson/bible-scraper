@@ -1,0 +1,165 @@
+{
+  "children": {
+    "chu": {
+      "children": {},
+      "val": {
+        "id": 1643,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 19,
+            "verse": 22,
+            "word_index": 15,
+            "char_index": 64
+          }
+        ]
+      }
+    },
+    "e": {
+      "children": {
+        "k": {
+          "children": {},
+          "val": {
+            "id": 2000,
+            "occurrences": [
+              {
+                "book": "1-samuel",
+                "chapter": 28,
+                "verse": 7,
+                "word_index": 6,
+                "char_index": 34
+              }
+            ]
+          }
+        },
+        "meth": {
+          "children": {},
+          "val": {
+            "id": 1611,
+            "occurrences": [
+              {
+                "book": "1-samuel",
+                "chapter": 18,
+                "verse": 23,
+                "word_index": 15,
+                "char_index": 76
+              }
+            ]
+          }
+        },
+        "r": {
+          "children": {},
+          "val": {
+            "id": 943,
+            "occurrences": [
+              {
+                "book": "1-samuel",
+                "chapter": 9,
+                "verse": 9,
+                "word_index": 34,
+                "char_index": 166
+              }
+            ]
+          }
+        }
+      },
+      "val": {
+        "id": 1053,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 10,
+            "verse": 24,
+            "word_index": 7,
+            "char_index": 35
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 23,
+            "verse": 23,
+            "word_index": 0,
+            "char_index": 0
+          }
+        ]
+      }
+    },
+    "lahammahlekoth": {
+      "children": {},
+      "val": {
+        "id": 1807,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 23,
+            "verse": 28,
+            "word_index": 17,
+            "char_index": 118
+          }
+        ]
+      }
+    },
+    "n": {
+      "children": {
+        "d": {
+          "children": {},
+          "val": {
+            "id": 703,
+            "occurrences": [
+              {
+                "book": "1-samuel",
+                "chapter": 5,
+                "verse": 11,
+                "word_index": 14,
+                "char_index": 79
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 16,
+                "verse": 11,
+                "word_index": 29,
+                "char_index": 165
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 16,
+                "verse": 19,
+                "word_index": 8,
+                "char_index": 53
+              }
+            ]
+          }
+        },
+        "eh": {
+          "children": {},
+          "val": {
+            "id": 1251,
+            "occurrences": [
+              {
+                "book": "1-samuel",
+                "chapter": 14,
+                "verse": 4,
+                "word_index": 46,
+                "char_index": 231
+              }
+            ]
+          }
+        }
+      }
+    },
+    "t": {
+      "children": {},
+      "val": {
+        "id": 985,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 9,
+            "verse": 23,
+            "word_index": 19,
+            "char_index": 95
+          }
+        ]
+      }
+    }
+  }
+}

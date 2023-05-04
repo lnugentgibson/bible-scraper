@@ -1,0 +1,74 @@
+{
+  "children": {
+    "esdammim": {
+      "children": {},
+      "val": {
+        "id": 1473,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 17,
+            "verse": 1,
+            "word_index": 26,
+            "char_index": 170
+          }
+        ]
+      }
+    },
+    "ra": {
+      "children": {
+        "im": {
+          "children": {},
+          "val": {
+            "id": 7,
+            "occurrences": [
+              {
+                "book": "1-samuel",
+                "chapter": 1,
+                "verse": 1,
+                "word_index": 10,
+                "char_index": 57
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 9,
+                "verse": 4,
+                "word_index": 5,
+                "char_index": 28
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 14,
+                "verse": 22,
+                "word_index": 12,
+                "char_index": 65
+              }
+            ]
+          }
+        },
+        "thite": {
+          "children": {},
+          "val": {
+            "id": 16,
+            "occurrences": [
+              {
+                "book": "1-samuel",
+                "chapter": 1,
+                "verse": 1,
+                "word_index": 33,
+                "char_index": 167
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 17,
+                "verse": 12,
+                "word_index": 7,
+                "char_index": 30
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

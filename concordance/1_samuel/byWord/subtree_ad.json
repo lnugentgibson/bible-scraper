@@ -1,0 +1,128 @@
+{
+  "children": {
+    "ded": {
+      "children": {},
+      "val": {
+        "id": 1151,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 12,
+            "verse": 19,
+            "word_index": 23,
+            "char_index": 111
+          }
+        ]
+      }
+    },
+    "jured": {
+      "children": {},
+      "val": {
+        "id": 1287,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 14,
+            "verse": 24,
+            "word_index": 12,
+            "char_index": 61
+          }
+        ]
+      }
+    },
+    "v": {
+      "children": {
+        "ancedb": {
+          "children": {},
+          "val": {
+            "id": 1119,
+            "occurrences": [
+              {
+                "book": "1-samuel",
+                "chapter": 12,
+                "verse": 6,
+                "word_index": 11,
+                "char_index": 53
+              }
+            ]
+          }
+        },
+        "ers": {
+          "children": {
+            "ar": {
+              "children": {
+                "ies": {
+                  "children": {},
+                  "val": {
+                    "id": 341,
+                    "occurrences": [
+                      {
+                        "book": "1-samuel",
+                        "chapter": 2,
+                        "verse": 10,
+                        "word_index": 1,
+                        "char_index": 4
+                      }
+                    ]
+                  }
+                },
+                "y": {
+                  "children": {},
+                  "val": {
+                    "id": 65,
+                    "occurrences": [
+                      {
+                        "book": "1-samuel",
+                        "chapter": 1,
+                        "verse": 6,
+                        "word_index": 2,
+                        "char_index": 8
+                      },
+                      {
+                        "book": "1-samuel",
+                        "chapter": 29,
+                        "verse": 4,
+                        "word_index": 53,
+                        "char_index": 267
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "ities": {
+              "children": {},
+              "val": {
+                "id": 1045,
+                "occurrences": [
+                  {
+                    "book": "1-samuel",
+                    "chapter": 10,
+                    "verse": 19,
+                    "word_index": 16,
+                    "char_index": 78
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "ice": {
+          "children": {},
+          "val": {
+            "id": 1909,
+            "occurrences": [
+              {
+                "book": "1-samuel",
+                "chapter": 25,
+                "verse": 33,
+                "word_index": 4,
+                "char_index": 19
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

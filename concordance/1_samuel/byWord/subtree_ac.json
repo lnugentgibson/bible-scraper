@@ -1,0 +1,169 @@
+{
+  "children": {
+    "c": {
+      "children": {
+        "ept": {
+          "children": {
+            "d": {
+              "children": {},
+              "val": {
+                "id": 1952,
+                "occurrences": [
+                  {
+                    "book": "1-samuel",
+                    "chapter": 26,
+                    "verse": 19,
+                    "word_index": 27,
+                    "char_index": 133
+                  }
+                ]
+              }
+            },
+            "ed": {
+              "children": {},
+              "val": {
+                "id": 1586,
+                "occurrences": [
+                  {
+                    "book": "1-samuel",
+                    "chapter": 18,
+                    "verse": 5,
+                    "word_index": 24,
+                    "char_index": 125
+                  },
+                  {
+                    "book": "1-samuel",
+                    "chapter": 25,
+                    "verse": 35,
+                    "word_index": 32,
+                    "char_index": 157
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "ording": {
+          "children": {},
+          "val": {
+            "id": 491,
+            "occurrences": [
+              {
+                "book": "1-samuel",
+                "chapter": 2,
+                "verse": 35,
+                "word_index": 12,
+                "char_index": 56
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 6,
+                "verse": 4,
+                "word_index": 24,
+                "char_index": 141
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 6,
+                "verse": 18,
+                "word_index": 4,
+                "char_index": 21
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 13,
+                "verse": 8,
+                "word_index": 5,
+                "char_index": 27
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 14,
+                "verse": 7,
+                "word_index": 20,
+                "char_index": 102
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 17,
+                "verse": 23,
+                "word_index": 28,
+                "char_index": 155
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 23,
+                "verse": 20,
+                "word_index": 6,
+                "char_index": 33
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 25,
+                "verse": 9,
+                "word_index": 11,
+                "char_index": 53
+              },
+              {
+                "book": "1-samuel",
+                "chapter": 25,
+                "verse": 30,
+                "word_index": 15,
+                "char_index": 68
+              }
+            ]
+          }
+        }
+      }
+    },
+    "re": {
+      "children": {},
+      "val": {
+        "id": 1269,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 14,
+            "verse": 14,
+            "word_index": 20,
+            "char_index": 118
+          }
+        ]
+      }
+    },
+    "t": {
+      "children": {
+        "ions": {
+          "children": {},
+          "val": {
+            "id": 285,
+            "occurrences": [
+              {
+                "book": "1-samuel",
+                "chapter": 2,
+                "verse": 3,
+                "word_index": 25,
+                "char_index": 125
+              }
+            ]
+          }
+        },
+        "s": {
+          "children": {},
+          "val": {
+            "id": 1125,
+            "occurrences": [
+              {
+                "book": "1-samuel",
+                "chapter": 12,
+                "verse": 7,
+                "word_index": 17,
+                "char_index": 91
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

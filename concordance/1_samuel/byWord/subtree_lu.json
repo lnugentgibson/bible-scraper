@@ -1,0 +1,34 @@
+{
+  "children": {
+    "cre": {
+      "children": {},
+      "val": {
+        "id": 844,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 8,
+            "verse": 3,
+            "word_index": 12,
+            "char_index": 60
+          }
+        ]
+      }
+    },
+    "rking": {
+      "children": {},
+      "val": {
+        "id": 1798,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 23,
+            "verse": 23,
+            "word_index": 8,
+            "char_index": 45
+          }
+        ]
+      }
+    }
+  }
+}

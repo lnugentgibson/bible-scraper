@@ -1,0 +1,34 @@
+{
+  "children": {
+    "phmoth": {
+      "children": {},
+      "val": {
+        "id": 2077,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 30,
+            "verse": 28,
+            "word_index": 13,
+            "char_index": 59
+          }
+        ]
+      }
+    },
+    "sera": {
+      "children": {},
+      "val": {
+        "id": 1130,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 12,
+            "verse": 9,
+            "word_index": 15,
+            "char_index": 71
+          }
+        ]
+      }
+    }
+  }
+}

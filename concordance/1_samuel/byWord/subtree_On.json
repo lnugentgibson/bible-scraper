@@ -1,0 +1,38 @@
+{
+  "children": {
+    "ly": {
+      "children": {},
+      "val": {
+        "id": 1164,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 12,
+            "verse": 24,
+            "word_index": 0,
+            "char_index": 0
+          }
+        ]
+      }
+    }
+  },
+  "val": {
+    "id": 1068,
+    "occurrences": [
+      {
+        "book": "1-samuel",
+        "chapter": 11,
+        "verse": 2,
+        "word_index": 6,
+        "char_index": 39
+      },
+      {
+        "book": "1-samuel",
+        "chapter": 18,
+        "verse": 24,
+        "word_index": 8,
+        "char_index": 43
+      }
+    ]
+  }
+}

@@ -1,0 +1,1400 @@
+And: And
+  leaves
+    {"book":"1-samuel","chapter":1,"verse":2,"index":0}
+    {"book":"1-samuel","chapter":1,"verse":3,"index":0}
+    {"book":"1-samuel","chapter":1,"verse":3,"index":107}
+    {"book":"1-samuel","chapter":1,"verse":4,"index":0}
+    {"book":"1-samuel","chapter":1,"verse":6,"index":0}
+    {"book":"1-samuel","chapter":1,"verse":7,"index":0}
+    {"book":"1-samuel","chapter":1,"verse":10,"index":0}
+    {"book":"1-samuel","chapter":1,"verse":11,"index":0}
+    {"book":"1-samuel","chapter":1,"verse":12,"index":0}
+    {"book":"1-samuel","chapter":1,"verse":14,"index":0}
+    {"book":"1-samuel","chapter":1,"verse":15,"index":0}
+    {"book":"1-samuel","chapter":1,"verse":18,"index":0}
+    {"book":"1-samuel","chapter":1,"verse":19,"index":0}
+    {"book":"1-samuel","chapter":1,"verse":21,"index":0}
+    {"book":"1-samuel","chapter":1,"verse":23,"index":0}
+    {"book":"1-samuel","chapter":1,"verse":24,"index":0}
+    {"book":"1-samuel","chapter":1,"verse":25,"index":0}
+    {"book":"1-samuel","chapter":1,"verse":26,"index":0}
+    {"book":"1-samuel","chapter":1,"verse":28,"index":95}
+B: B
+  e: Be
+    cause: Because
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":20,"index":141}
+    lial: Belial
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":16,"index":43}
+  ut: But
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":5,"index":0}
+      {"book":"1-samuel","chapter":1,"verse":22,"index":0}
+Count: Count
+  leaves
+    {"book":"1-samuel","chapter":1,"verse":16,"index":0}
+Do: Do
+  leaves
+    {"book":"1-samuel","chapter":1,"verse":23,"index":39}
+E: E
+  l: El
+    i: Eli
+      hu: Elihu
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":1,"index":123}
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":3,"index":127}
+        {"book":"1-samuel","chapter":1,"verse":9,"index":80}
+        {"book":"1-samuel","chapter":1,"verse":12,"index":69}
+        {"book":"1-samuel","chapter":1,"verse":13,"index":96}
+        {"book":"1-samuel","chapter":1,"verse":14,"index":4}
+        {"book":"1-samuel","chapter":1,"verse":17,"index":5}
+        {"book":"1-samuel","chapter":1,"verse":25,"index":50}
+    kanah: Elkanah
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":1,"index":83}
+        {"book":"1-samuel","chapter":1,"verse":4,"index":27}
+        {"book":"1-samuel","chapter":1,"verse":8,"index":10}
+        {"book":"1-samuel","chapter":1,"verse":19,"index":123}
+        {"book":"1-samuel","chapter":1,"verse":21,"index":12}
+        {"book":"1-samuel","chapter":1,"verse":23,"index":4}
+  phra: Ephra
+    im: Ephraim
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":1,"index":57}
+    thite: Ephrathite
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":1,"index":167}
+For: For
+  leaves
+    {"book":"1-samuel","chapter":1,"verse":27,"index":0}
+Go: Go
+  d: God
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":17,"index":49}
+  leaves
+    {"book":"1-samuel","chapter":1,"verse":17,"index":28}
+H: H
+  annah: Hannah
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":2,"index":46}
+      {"book":"1-samuel","chapter":1,"verse":2,"index":121}
+      {"book":"1-samuel","chapter":1,"verse":5,"index":9}
+      {"book":"1-samuel","chapter":1,"verse":5,"index":56}
+      {"book":"1-samuel","chapter":1,"verse":8,"index":38}
+      {"book":"1-samuel","chapter":1,"verse":9,"index":3}
+      {"book":"1-samuel","chapter":1,"verse":13,"index":4}
+      {"book":"1-samuel","chapter":1,"verse":15,"index":4}
+      {"book":"1-samuel","chapter":1,"verse":19,"index":136}
+      {"book":"1-samuel","chapter":1,"verse":20,"index":62}
+      {"book":"1-samuel","chapter":1,"verse":22,"index":4}
+  o: Ho
+    phni: Hophni
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":3,"index":132}
+    w: How
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":14,"index":23}
+I: I
+  srael: Israel
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":17,"index":56}
+  leaves
+    {"book":"1-samuel","chapter":1,"verse":8,"index":126}
+    {"book":"1-samuel","chapter":1,"verse":11,"index":211}
+    {"book":"1-samuel","chapter":1,"verse":15,"index":43}
+    {"book":"1-samuel","chapter":1,"verse":15,"index":80}
+    {"book":"1-samuel","chapter":1,"verse":16,"index":108}
+    {"book":"1-samuel","chapter":1,"verse":20,"index":149}
+    {"book":"1-samuel","chapter":1,"verse":22,"index":55}
+    {"book":"1-samuel","chapter":1,"verse":22,"index":108}
+    {"book":"1-samuel","chapter":1,"verse":26,"index":55}
+    {"book":"1-samuel","chapter":1,"verse":27,"index":15}
+    {"book":"1-samuel","chapter":1,"verse":27,"index":70}
+    {"book":"1-samuel","chapter":1,"verse":28,"index":15}
+Jeroham: Jeroham
+  leaves
+    {"book":"1-samuel","chapter":1,"verse":1,"index":103}
+L: L
+  ORD: LORD
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":3,"index":82}
+      {"book":"1-samuel","chapter":1,"verse":3,"index":172}
+      {"book":"1-samuel","chapter":1,"verse":5,"index":72}
+      {"book":"1-samuel","chapter":1,"verse":6,"index":77}
+      {"book":"1-samuel","chapter":1,"verse":7,"index":69}
+      {"book":"1-samuel","chapter":1,"verse":9,"index":142}
+      {"book":"1-samuel","chapter":1,"verse":10,"index":55}
+      {"book":"1-samuel","chapter":1,"verse":11,"index":33}
+      {"book":"1-samuel","chapter":1,"verse":11,"index":236}
+      {"book":"1-samuel","chapter":1,"verse":12,"index":58}
+      {"book":"1-samuel","chapter":1,"verse":15,"index":163}
+      {"book":"1-samuel","chapter":1,"verse":19,"index":65}
+      {"book":"1-samuel","chapter":1,"verse":19,"index":161}
+      {"book":"1-samuel","chapter":1,"verse":20,"index":173}
+      {"book":"1-samuel","chapter":1,"verse":21,"index":66}
+      {"book":"1-samuel","chapter":1,"verse":22,"index":156}
+      {"book":"1-samuel","chapter":1,"verse":23,"index":109}
+      {"book":"1-samuel","chapter":1,"verse":24,"index":160}
+      {"book":"1-samuel","chapter":1,"verse":26,"index":112}
+      {"book":"1-samuel","chapter":1,"verse":27,"index":33}
+      {"book":"1-samuel","chapter":1,"verse":28,"index":38}
+      {"book":"1-samuel","chapter":1,"verse":28,"index":89}
+      {"book":"1-samuel","chapter":1,"verse":28,"index":117}
+  et: Let
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":18,"index":14}
+No: No
+  w: Now
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":1,"index":0}
+      {"book":"1-samuel","chapter":1,"verse":9,"index":76}
+      {"book":"1-samuel","chapter":1,"verse":13,"index":0}
+  leaves
+    {"book":"1-samuel","chapter":1,"verse":15,"index":30}
+O: O
+  h: Oh
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":26,"index":14}
+  leaves
+    {"book":"1-samuel","chapter":1,"verse":11,"index":31}
+P: P
+  eninnah: Peninnah
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":2,"index":80}
+      {"book":"1-samuel","chapter":1,"verse":2,"index":94}
+      {"book":"1-samuel","chapter":1,"verse":4,"index":55}
+  hinehas: Phinehas
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":3,"index":143}
+Rama: Rama
+  h: Ramah
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":19,"index":112}
+  thaimzophim: Ramathaimzophim
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":1,"index":31}
+S: S
+  amuel: Samuel
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":20,"index":125}
+  hiloh: Shiloh
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":3,"index":99}
+      {"book":"1-samuel","chapter":1,"verse":9,"index":42}
+      {"book":"1-samuel","chapter":1,"verse":24,"index":168}
+  o: So
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":9,"index":0}
+      {"book":"1-samuel","chapter":1,"verse":18,"index":58}
+      {"book":"1-samuel","chapter":1,"verse":23,"index":134}
+T: T
+  he: The
+    n: Then
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":8,"index":0}
+        {"book":"1-samuel","chapter":1,"verse":17,"index":0}
+    refore: Therefore
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":28,"index":0}
+  ohu: Tohu
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":1,"index":141}
+Wherefore: Wherefore
+  leaves
+    {"book":"1-samuel","chapter":1,"verse":20,"index":0}
+Zuph: Zuph
+  leaves
+    {"book":"1-samuel","chapter":1,"verse":1,"index":158}
+a: a
+  b: ab
+    ide: abide
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":22,"index":172}
+    o: abo
+      de: abode
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":23,"index":147}
+      ut: about
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":20,"index":50}
+    undance: abundance
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":16,"index":66}
+  dversary: adversary
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":6,"index":8}
+  f: af
+    fliction: affliction
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":11,"index":80}
+    ter: after
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":9,"index":18}
+        {"book":"1-samuel","chapter":1,"verse":9,"index":54}
+        {"book":"1-samuel","chapter":1,"verse":20,"index":56}
+  l: al
+    l: all
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":4,"index":81}
+        {"book":"1-samuel","chapter":1,"verse":11,"index":241}
+        {"book":"1-samuel","chapter":1,"verse":21,"index":25}
+    so: also
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":6,"index":18}
+        {"book":"1-samuel","chapter":1,"verse":28,"index":10}
+  m: am
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":8,"index":119}
+      {"book":"1-samuel","chapter":1,"verse":15,"index":45}
+      {"book":"1-samuel","chapter":1,"verse":26,"index":57}
+  n: an
+    d: and
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":1,"index":66}
+        {"book":"1-samuel","chapter":1,"verse":2,"index":54}
+        {"book":"1-samuel","chapter":1,"verse":2,"index":90}
+        {"book":"1-samuel","chapter":1,"verse":3,"index":56}
+        {"book":"1-samuel","chapter":1,"verse":3,"index":139}
+        {"book":"1-samuel","chapter":1,"verse":4,"index":74}
+        {"book":"1-samuel","chapter":1,"verse":4,"index":94}
+        {"book":"1-samuel","chapter":1,"verse":7,"index":116}
+        {"book":"1-samuel","chapter":1,"verse":8,"index":64}
+        {"book":"1-samuel","chapter":1,"verse":8,"index":89}
+        {"book":"1-samuel","chapter":1,"verse":9,"index":50}
+        {"book":"1-samuel","chapter":1,"verse":10,"index":35}
+        {"book":"1-samuel","chapter":1,"verse":10,"index":61}
+        {"book":"1-samuel","chapter":1,"verse":11,"index":21}
+        {"book":"1-samuel","chapter":1,"verse":11,"index":110}
+        {"book":"1-samuel","chapter":1,"verse":11,"index":127}
+        {"book":"1-samuel","chapter":1,"verse":11,"index":267}
+        {"book":"1-samuel","chapter":1,"verse":15,"index":20}
+        {"book":"1-samuel","chapter":1,"verse":16,"index":93}
+        {"book":"1-samuel","chapter":1,"verse":17,"index":18}
+        {"book":"1-samuel","chapter":1,"verse":17,"index":41}
+        {"book":"1-samuel","chapter":1,"verse":18,"index":85}
+        {"book":"1-samuel","chapter":1,"verse":18,"index":98}
+        {"book":"1-samuel","chapter":1,"verse":19,"index":39}
+        {"book":"1-samuel","chapter":1,"verse":19,"index":71}
+        {"book":"1-samuel","chapter":1,"verse":19,"index":85}
+        {"book":"1-samuel","chapter":1,"verse":19,"index":119}
+        {"book":"1-samuel","chapter":1,"verse":19,"index":153}
+        {"book":"1-samuel","chapter":1,"verse":20,"index":105}
+        {"book":"1-samuel","chapter":1,"verse":21,"index":21}
+        {"book":"1-samuel","chapter":1,"verse":21,"index":93}
+        {"book":"1-samuel","chapter":1,"verse":22,"index":99}
+        {"book":"1-samuel","chapter":1,"verse":22,"index":162}
+        {"book":"1-samuel","chapter":1,"verse":23,"index":154}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":76}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":100}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":122}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":176}
+        {"book":"1-samuel","chapter":1,"verse":25,"index":25}
+        {"book":"1-samuel","chapter":1,"verse":27,"index":25}
+    swered: answered
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":15,"index":11}
+        {"book":"1-samuel","chapter":1,"verse":17,"index":9}
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":1,"index":164}
+  ppear: appear
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":22,"index":138}
+  s: as
+    ked: asked
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":17,"index":102}
+        {"book":"1-samuel","chapter":1,"verse":20,"index":156}
+        {"book":"1-samuel","chapter":1,"verse":27,"index":72}
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":7,"index":4}
+      {"book":"1-samuel","chapter":1,"verse":12,"index":21}
+      {"book":"1-samuel","chapter":1,"verse":26,"index":26}
+      {"book":"1-samuel","chapter":1,"verse":28,"index":44}
+      {"book":"1-samuel","chapter":1,"verse":28,"index":52}
+  way: away
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":14,"index":58}
+  leaves
+    {"book":"1-samuel","chapter":1,"verse":1,"index":14}
+    {"book":"1-samuel","chapter":1,"verse":5,"index":24}
+    {"book":"1-samuel","chapter":1,"verse":9,"index":104}
+    {"book":"1-samuel","chapter":1,"verse":9,"index":114}
+    {"book":"1-samuel","chapter":1,"verse":11,"index":14}
+    {"book":"1-samuel","chapter":1,"verse":11,"index":192}
+    {"book":"1-samuel","chapter":1,"verse":15,"index":48}
+    {"book":"1-samuel","chapter":1,"verse":15,"index":59}
+    {"book":"1-samuel","chapter":1,"verse":16,"index":29}
+    {"book":"1-samuel","chapter":1,"verse":20,"index":98}
+    {"book":"1-samuel","chapter":1,"verse":24,"index":104}
+    {"book":"1-samuel","chapter":1,"verse":25,"index":14}
+b: b
+  are: bare
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":20,"index":93}
+  e: be
+    cause: because
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":6,"index":65}
+    en: been
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":13,"index":116}
+    fore: before
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":12,"index":47}
+        {"book":"1-samuel","chapter":1,"verse":15,"index":152}
+        {"book":"1-samuel","chapter":1,"verse":19,"index":54}
+        {"book":"1-samuel","chapter":1,"verse":22,"index":145}
+    tter: better
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":8,"index":128}
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":14,"index":42}
+      {"book":"1-samuel","chapter":1,"verse":22,"index":88}
+      {"book":"1-samuel","chapter":1,"verse":28,"index":74}
+  itterness: bitterness
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":10,"index":15}
+  ottle: bottle
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":24,"index":106}
+  r: br
+    ing: bring
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":22,"index":115}
+    ought: brought
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":24,"index":126}
+        {"book":"1-samuel","chapter":1,"verse":25,"index":29}
+  u: bu
+    llock: bullock
+      s: bullocks
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":24,"index":66}
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":25,"index":16}
+    t: but
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":2,"index":117}
+        {"book":"1-samuel","chapter":1,"verse":5,"index":64}
+        {"book":"1-samuel","chapter":1,"verse":11,"index":158}
+        {"book":"1-samuel","chapter":1,"verse":13,"index":57}
+        {"book":"1-samuel","chapter":1,"verse":15,"index":124}
+  y: by
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":7,"index":22}
+      {"book":"1-samuel","chapter":1,"verse":9,"index":111}
+      {"book":"1-samuel","chapter":1,"verse":26,"index":81}
+c: c
+  a: ca
+    lled: called
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":20,"index":109}
+    me: came
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":12,"index":7}
+        {"book":"1-samuel","chapter":1,"verse":19,"index":89}
+        {"book":"1-samuel","chapter":1,"verse":20,"index":13}
+  ertain: certain
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":1,"index":16}
+  hild: child
+    ren: children
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":2,"index":107}
+        {"book":"1-samuel","chapter":1,"verse":2,"index":135}
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":11,"index":199}
+      {"book":"1-samuel","chapter":1,"verse":22,"index":82}
+      {"book":"1-samuel","chapter":1,"verse":24,"index":184}
+      {"book":"1-samuel","chapter":1,"verse":25,"index":41}
+      {"book":"1-samuel","chapter":1,"verse":27,"index":9}
+  ity: city
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":3,"index":32}
+  o: co
+    m: com
+      e: come
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":11,"index":292}
+          {"book":"1-samuel","chapter":1,"verse":20,"index":45}
+      plainth: complainth
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":16,"index":82}
+    n: con
+      ceived: conceived
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":20,"index":73}
+      tinuedf: continuedf
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":12,"index":28}
+    untenance: countenance
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":18,"index":106}
+d: d
+  a: da
+    ughter: daughter
+      s: daughters
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":4,"index":102}
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":16,"index":31}
+    ys: days
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":11,"index":249}
+  id: did
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":7,"index":10}
+      {"book":"1-samuel","chapter":1,"verse":7,"index":120}
+      {"book":"1-samuel","chapter":1,"verse":18,"index":89}
+  r: dr
+    ink: drink
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":15,"index":117}
+    unk: drunk
+      en: drunken
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":13,"index":121}
+          {"book":"1-samuel","chapter":1,"verse":14,"index":45}
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":9,"index":69}
+        {"book":"1-samuel","chapter":1,"verse":15,"index":87}
+e: e
+  a: ea
+    rly: early
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":19,"index":32}
+    t: eat
+      e: eate
+        n: eaten
+          leaves
+            {"book":"1-samuel","chapter":1,"verse":9,"index":33}
+        st: eatest
+          leaves
+            {"book":"1-samuel","chapter":1,"verse":8,"index":72}
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":7,"index":128}
+        {"book":"1-samuel","chapter":1,"verse":18,"index":93}
+  phah: ephah
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":24,"index":84}
+  stablish: establish
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":23,"index":114}
+  ver: ever
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":22,"index":182}
+f: f
+  ind: find
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":18,"index":33}
+  lour: flour
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":24,"index":93}
+  or: for
+    get: forget
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":11,"index":135}
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":5,"index":43}
+      {"book":"1-samuel","chapter":1,"verse":6,"index":43}
+      {"book":"1-samuel","chapter":1,"verse":16,"index":25}
+      {"book":"1-samuel","chapter":1,"verse":16,"index":51}
+      {"book":"1-samuel","chapter":1,"verse":22,"index":24}
+      {"book":"1-samuel","chapter":1,"verse":22,"index":178}
+  r: fr
+    et: fret
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":6,"index":59}
+    om: from
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":14,"index":72}
+g: g
+  ave: gave
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":4,"index":47}
+      {"book":"1-samuel","chapter":1,"verse":5,"index":19}
+      {"book":"1-samuel","chapter":1,"verse":23,"index":158}
+  ive: give
+    n: given
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":27,"index":43}
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":11,"index":167}
+      {"book":"1-samuel","chapter":1,"verse":11,"index":218}
+  o: go
+    od: good
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":23,"index":60}
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":22,"index":66}
+  r: gr
+    a: gra
+      ce: grace
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":18,"index":38}
+      nt: grant
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":17,"index":63}
+    ie: grie
+      f: grief
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":16,"index":97}
+      ved: grieved
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":8,"index":110}
+h: h
+  a: ha
+    d: had
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":2,"index":7}
+        {"book":"1-samuel","chapter":1,"verse":2,"index":103}
+        {"book":"1-samuel","chapter":1,"verse":2,"index":128}
+        {"book":"1-samuel","chapter":1,"verse":5,"index":77}
+        {"book":"1-samuel","chapter":1,"verse":6,"index":82}
+        {"book":"1-samuel","chapter":1,"verse":9,"index":29}
+        {"book":"1-samuel","chapter":1,"verse":9,"index":65}
+        {"book":"1-samuel","chapter":1,"verse":13,"index":112}
+        {"book":"1-samuel","chapter":1,"verse":20,"index":69}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":13}
+    ndmaid: handmaid
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":11,"index":100}
+        {"book":"1-samuel","chapter":1,"verse":11,"index":148}
+        {"book":"1-samuel","chapter":1,"verse":11,"index":183}
+        {"book":"1-samuel","chapter":1,"verse":16,"index":16}
+        {"book":"1-samuel","chapter":1,"verse":18,"index":24}
+    st: hast
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":17,"index":97}
+    th: hath
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":27,"index":38}
+    ve: have
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":15,"index":82}
+        {"book":"1-samuel","chapter":1,"verse":15,"index":128}
+        {"book":"1-samuel","chapter":1,"verse":16,"index":103}
+        {"book":"1-samuel","chapter":1,"verse":20,"index":151}
+        {"book":"1-samuel","chapter":1,"verse":23,"index":83}
+        {"book":"1-samuel","chapter":1,"verse":28,"index":17}
+  e: he
+    a: hea
+      d: head
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":11,"index":306}
+      r: hear
+        d: heard
+          leaves
+            {"book":"1-samuel","chapter":1,"verse":13,"index":79}
+        t: heart
+          leaves
+            {"book":"1-samuel","chapter":1,"verse":8,"index":104}
+            {"book":"1-samuel","chapter":1,"verse":13,"index":29}
+    r: her
+      e: here
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":26,"index":89}
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":4,"index":85}
+        {"book":"1-samuel","chapter":1,"verse":4,"index":98}
+        {"book":"1-samuel","chapter":1,"verse":5,"index":89}
+        {"book":"1-samuel","chapter":1,"verse":6,"index":4}
+        {"book":"1-samuel","chapter":1,"verse":6,"index":33}
+        {"book":"1-samuel","chapter":1,"verse":6,"index":55}
+        {"book":"1-samuel","chapter":1,"verse":6,"index":94}
+        {"book":"1-samuel","chapter":1,"verse":7,"index":91}
+        {"book":"1-samuel","chapter":1,"verse":8,"index":18}
+        {"book":"1-samuel","chapter":1,"verse":8,"index":33}
+        {"book":"1-samuel","chapter":1,"verse":12,"index":80}
+        {"book":"1-samuel","chapter":1,"verse":13,"index":25}
+        {"book":"1-samuel","chapter":1,"verse":13,"index":41}
+        {"book":"1-samuel","chapter":1,"verse":13,"index":61}
+        {"book":"1-samuel","chapter":1,"verse":14,"index":18}
+        {"book":"1-samuel","chapter":1,"verse":18,"index":76}
+        {"book":"1-samuel","chapter":1,"verse":18,"index":102}
+        {"book":"1-samuel","chapter":1,"verse":19,"index":177}
+        {"book":"1-samuel","chapter":1,"verse":22,"index":42}
+        {"book":"1-samuel","chapter":1,"verse":23,"index":12}
+        {"book":"1-samuel","chapter":1,"verse":23,"index":34}
+        {"book":"1-samuel","chapter":1,"verse":23,"index":163}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":50}
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":2,"index":4}
+      {"book":"1-samuel","chapter":1,"verse":4,"index":44}
+      {"book":"1-samuel","chapter":1,"verse":5,"index":16}
+      {"book":"1-samuel","chapter":1,"verse":5,"index":47}
+      {"book":"1-samuel","chapter":1,"verse":7,"index":7}
+      {"book":"1-samuel","chapter":1,"verse":22,"index":131}
+      {"book":"1-samuel","chapter":1,"verse":28,"index":55}
+      {"book":"1-samuel","chapter":1,"verse":28,"index":65}
+      {"book":"1-samuel","chapter":1,"verse":28,"index":99}
+  i: hi
+    m: him
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":11,"index":223}
+        {"book":"1-samuel","chapter":1,"verse":17,"index":111}
+        {"book":"1-samuel","chapter":1,"verse":20,"index":162}
+        {"book":"1-samuel","chapter":1,"verse":22,"index":121}
+        {"book":"1-samuel","chapter":1,"verse":23,"index":95}
+        {"book":"1-samuel","chapter":1,"verse":23,"index":193}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":24}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":38}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":134}
+        {"book":"1-samuel","chapter":1,"verse":27,"index":81}
+        {"book":"1-samuel","chapter":1,"verse":28,"index":27}
+    s: his
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":1,"index":70}
+        {"book":"1-samuel","chapter":1,"verse":3,"index":28}
+        {"book":"1-samuel","chapter":1,"verse":4,"index":64}
+        {"book":"1-samuel","chapter":1,"verse":11,"index":257}
+        {"book":"1-samuel","chapter":1,"verse":11,"index":302}
+        {"book":"1-samuel","chapter":1,"verse":19,"index":143}
+        {"book":"1-samuel","chapter":1,"verse":20,"index":116}
+        {"book":"1-samuel","chapter":1,"verse":21,"index":29}
+        {"book":"1-samuel","chapter":1,"verse":21,"index":97}
+        {"book":"1-samuel","chapter":1,"verse":23,"index":124}
+    therto: hitherto
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":16,"index":117}
+  o: ho
+    sts: hosts
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":3,"index":90}
+        {"book":"1-samuel","chapter":1,"verse":11,"index":41}
+    use: house
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":7,"index":56}
+        {"book":"1-samuel","chapter":1,"verse":19,"index":103}
+        {"book":"1-samuel","chapter":1,"verse":21,"index":33}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":147}
+  usband: husband
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":8,"index":22}
+      {"book":"1-samuel","chapter":1,"verse":22,"index":46}
+      {"book":"1-samuel","chapter":1,"verse":23,"index":16}
+i: i
+  f: if
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":11,"index":48}
+  n: in
+    deed: indeed
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":11,"index":61}
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":3,"index":96}
+      {"book":"1-samuel","chapter":1,"verse":9,"index":39}
+      {"book":"1-samuel","chapter":1,"verse":10,"index":12}
+      {"book":"1-samuel","chapter":1,"verse":13,"index":22}
+      {"book":"1-samuel","chapter":1,"verse":17,"index":31}
+      {"book":"1-samuel","chapter":1,"verse":18,"index":44}
+      {"book":"1-samuel","chapter":1,"verse":19,"index":17}
+      {"book":"1-samuel","chapter":1,"verse":24,"index":165}
+  s: is
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":8,"index":97}
+  t: it
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":12,"index":4}
+      {"book":"1-samuel","chapter":1,"verse":20,"index":10}
+knew: knew
+  leaves
+    {"book":"1-samuel","chapter":1,"verse":19,"index":131}
+l: l
+  ent: lent
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":28,"index":22}
+      {"book":"1-samuel","chapter":1,"verse":28,"index":77}
+  i: li
+    fe: life
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":11,"index":261}
+    ps: lips
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":13,"index":45}
+    veth: liveth
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":26,"index":38}
+        {"book":"1-samuel","chapter":1,"verse":28,"index":58}
+  o: lo
+    ng: long
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":14,"index":27}
+        {"book":"1-samuel","chapter":1,"verse":28,"index":47}
+    ok: look
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":11,"index":68}
+    rd: lord
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":15,"index":37}
+        {"book":"1-samuel","chapter":1,"verse":26,"index":20}
+        {"book":"1-samuel","chapter":1,"verse":26,"index":49}
+    ved: loved
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":5,"index":50}
+m: m
+  a: ma
+    ke: make
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":6,"index":50}
+    n: man
+      e: mane
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":11,"index":194}
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":1,"index":24}
+        {"book":"1-samuel","chapter":1,"verse":3,"index":9}
+        {"book":"1-samuel","chapter":1,"verse":21,"index":8}
+    rked: marked
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":12,"index":73}
+    y: may
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":22,"index":134}
+  e: me
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":11,"index":123}
+      {"book":"1-samuel","chapter":1,"verse":27,"index":49}
+  o: mo
+    r: mor
+      e: more
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":18,"index":125}
+      ning: morning
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":19,"index":24}
+    u: mou
+      nt: mount
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":1,"index":51}
+      th: mouth
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":12,"index":84}
+    ved: moved
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":13,"index":50}
+  y: my
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":15,"index":34}
+      {"book":"1-samuel","chapter":1,"verse":15,"index":144}
+      {"book":"1-samuel","chapter":1,"verse":16,"index":79}
+      {"book":"1-samuel","chapter":1,"verse":26,"index":17}
+      {"book":"1-samuel","chapter":1,"verse":26,"index":46}
+      {"book":"1-samuel","chapter":1,"verse":27,"index":52}
+n: n
+  ame: name
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":1,"index":74}
+      {"book":"1-samuel","chapter":1,"verse":2,"index":26}
+      {"book":"1-samuel","chapter":1,"verse":2,"index":62}
+      {"book":"1-samuel","chapter":1,"verse":20,"index":120}
+  either: neither
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":15,"index":93}
+  o: no
+    r: nor
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":15,"index":106}
+    t: not
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":7,"index":124}
+        {"book":"1-samuel","chapter":1,"verse":8,"index":84}
+        {"book":"1-samuel","chapter":1,"verse":8,"index":122}
+        {"book":"1-samuel","chapter":1,"verse":11,"index":131}
+        {"book":"1-samuel","chapter":1,"verse":13,"index":75}
+        {"book":"1-samuel","chapter":1,"verse":16,"index":6}
+        {"book":"1-samuel","chapter":1,"verse":22,"index":16}
+        {"book":"1-samuel","chapter":1,"verse":22,"index":62}
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":2,"index":132}
+      {"book":"1-samuel","chapter":1,"verse":11,"index":283}
+      {"book":"1-samuel","chapter":1,"verse":18,"index":122}
+o: o
+  f: of
+    fer: offer
+      ed: offered
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":4,"index":35}
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":21,"index":51}
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":1,"index":28}
+      {"book":"1-samuel","chapter":1,"verse":1,"index":48}
+      {"book":"1-samuel","chapter":1,"verse":1,"index":100}
+      {"book":"1-samuel","chapter":1,"verse":1,"index":120}
+      {"book":"1-samuel","chapter":1,"verse":1,"index":138}
+      {"book":"1-samuel","chapter":1,"verse":1,"index":155}
+      {"book":"1-samuel","chapter":1,"verse":2,"index":31}
+      {"book":"1-samuel","chapter":1,"verse":2,"index":67}
+      {"book":"1-samuel","chapter":1,"verse":3,"index":25}
+      {"book":"1-samuel","chapter":1,"verse":3,"index":87}
+      {"book":"1-samuel","chapter":1,"verse":3,"index":124}
+      {"book":"1-samuel","chapter":1,"verse":3,"index":165}
+      {"book":"1-samuel","chapter":1,"verse":7,"index":62}
+      {"book":"1-samuel","chapter":1,"verse":9,"index":121}
+      {"book":"1-samuel","chapter":1,"verse":9,"index":135}
+      {"book":"1-samuel","chapter":1,"verse":10,"index":26}
+      {"book":"1-samuel","chapter":1,"verse":11,"index":38}
+      {"book":"1-samuel","chapter":1,"verse":11,"index":91}
+      {"book":"1-samuel","chapter":1,"verse":11,"index":254}
+      {"book":"1-samuel","chapter":1,"verse":15,"index":56}
+      {"book":"1-samuel","chapter":1,"verse":16,"index":40}
+      {"book":"1-samuel","chapter":1,"verse":16,"index":59}
+      {"book":"1-samuel","chapter":1,"verse":16,"index":76}
+      {"book":"1-samuel","chapter":1,"verse":17,"index":53}
+      {"book":"1-samuel","chapter":1,"verse":17,"index":108}
+      {"book":"1-samuel","chapter":1,"verse":20,"index":166}
+      {"book":"1-samuel","chapter":1,"verse":24,"index":90}
+      {"book":"1-samuel","chapter":1,"verse":24,"index":113}
+      {"book":"1-samuel","chapter":1,"verse":24,"index":153}
+      {"book":"1-samuel","chapter":1,"verse":27,"index":78}
+  n: on
+    e: one
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":2,"index":38}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":80}
+    ly: only
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":13,"index":36}
+        {"book":"1-samuel","chapter":1,"verse":23,"index":100}
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":11,"index":73}
+  ther: other
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":2,"index":74}
+  ut: out
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":3,"index":21}
+      {"book":"1-samuel","chapter":1,"verse":15,"index":140}
+      {"book":"1-samuel","chapter":1,"verse":16,"index":55}
+p: p
+  ass: pass
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":12,"index":15}
+      {"book":"1-samuel","chapter":1,"verse":20,"index":21}
+  e: pe
+    ace: peace
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":17,"index":34}
+    tition: petition
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":17,"index":78}
+        {"book":"1-samuel","chapter":1,"verse":27,"index":55}
+  o: po
+    rtion: portion
+      s: portions
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":4,"index":113}
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":5,"index":34}
+    st: post
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":9,"index":116}
+    ured: poured
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":15,"index":133}
+  r: pr
+    ay: pray
+      ed: prayed
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":10,"index":39}
+          {"book":"1-samuel","chapter":1,"verse":27,"index":17}
+      ing: praying
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":12,"index":39}
+          {"book":"1-samuel","chapter":1,"verse":26,"index":95}
+    iest: priest
+      s: priests
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":3,"index":157}
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":9,"index":88}
+    ovoked: provoked
+      c: provokedc
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":6,"index":23}
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":7,"index":82}
+  ut: put
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":14,"index":54}
+r: r
+  azor: razor
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":11,"index":286}
+  e: re
+    member: remember
+      ed: remembered
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":19,"index":166}
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":11,"index":114}
+    turned: returned
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":19,"index":75}
+  ose: rose
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":9,"index":10}
+      {"book":"1-samuel","chapter":1,"verse":19,"index":9}
+s: s
+  a: sa
+    crifice: sacrifice
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":3,"index":63}
+        {"book":"1-samuel","chapter":1,"verse":21,"index":82}
+    d: sad
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":18,"index":130}
+    id: said
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":8,"index":5}
+        {"book":"1-samuel","chapter":1,"verse":11,"index":25}
+        {"book":"1-samuel","chapter":1,"verse":14,"index":8}
+        {"book":"1-samuel","chapter":1,"verse":15,"index":24}
+        {"book":"1-samuel","chapter":1,"verse":17,"index":22}
+        {"book":"1-samuel","chapter":1,"verse":18,"index":8}
+        {"book":"1-samuel","chapter":1,"verse":22,"index":32}
+        {"book":"1-samuel","chapter":1,"verse":23,"index":24}
+        {"book":"1-samuel","chapter":1,"verse":26,"index":8}
+    t: sat
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":9,"index":95}
+    ying: saying
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":20,"index":133}
+  e: se
+    at: seat
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":9,"index":106}
+    emeth: seemeth
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":23,"index":47}
+  h: sh
+    all: shall
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":11,"index":277}
+        {"book":"1-samuel","chapter":1,"verse":28,"index":68}
+    e: she
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":7,"index":37}
+        {"book":"1-samuel","chapter":1,"verse":7,"index":78}
+        {"book":"1-samuel","chapter":1,"verse":7,"index":106}
+        {"book":"1-samuel","chapter":1,"verse":10,"index":4}
+        {"book":"1-samuel","chapter":1,"verse":11,"index":4}
+        {"book":"1-samuel","chapter":1,"verse":12,"index":24}
+        {"book":"1-samuel","chapter":1,"verse":13,"index":12}
+        {"book":"1-samuel","chapter":1,"verse":13,"index":108}
+        {"book":"1-samuel","chapter":1,"verse":18,"index":4}
+        {"book":"1-samuel","chapter":1,"verse":20,"index":89}
+        {"book":"1-samuel","chapter":1,"verse":22,"index":28}
+        {"book":"1-samuel","chapter":1,"verse":23,"index":182}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":9}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":29}
+        {"book":"1-samuel","chapter":1,"verse":26,"index":4}
+    ut: shut
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":5,"index":81}
+        {"book":"1-samuel","chapter":1,"verse":6,"index":86}
+  ight: sight
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":18,"index":51}
+  lew: slew
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":25,"index":9}
+  o: so
+    n: son
+      s: sons
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":3,"index":119}
+          {"book":"1-samuel","chapter":1,"verse":4,"index":89}
+          {"book":"1-samuel","chapter":1,"verse":8,"index":152}
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":1,"index":96}
+        {"book":"1-samuel","chapter":1,"verse":1,"index":116}
+        {"book":"1-samuel","chapter":1,"verse":1,"index":134}
+        {"book":"1-samuel","chapter":1,"verse":1,"index":151}
+        {"book":"1-samuel","chapter":1,"verse":20,"index":100}
+        {"book":"1-samuel","chapter":1,"verse":23,"index":167}
+    r: sor
+      e: sore
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":6,"index":37}
+          {"book":"1-samuel","chapter":1,"verse":10,"index":70}
+      rowfulg: sorrowfulg
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":15,"index":61}
+    ul: soul
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":10,"index":29}
+        {"book":"1-samuel","chapter":1,"verse":15,"index":147}
+        {"book":"1-samuel","chapter":1,"verse":26,"index":33}
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":7,"index":14}
+      {"book":"1-samuel","chapter":1,"verse":7,"index":75}
+  p: sp
+    ake: spake
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":13,"index":16}
+    irit: spirit
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":15,"index":72}
+    oken: spoken
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":16,"index":110}
+  t: st
+    ood: stood
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":26,"index":75}
+    rong: strong
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":15,"index":110}
+  uck: suck
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":23,"index":171}
+t: t
+  arry: tarry
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":23,"index":66}
+  e: te
+    mple: temple
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":9,"index":128}
+    n: ten
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":8,"index":148}
+  h: th
+    a: tha
+      n: than
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":8,"index":143}
+      t: that
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":4,"index":22}
+          {"book":"1-samuel","chapter":1,"verse":12,"index":64}
+          {"book":"1-samuel","chapter":1,"verse":17,"index":87}
+          {"book":"1-samuel","chapter":1,"verse":20,"index":84}
+          {"book":"1-samuel","chapter":1,"verse":22,"index":126}
+          {"book":"1-samuel","chapter":1,"verse":26,"index":70}
+    e: the
+      e: thee
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":8,"index":138}
+          {"book":"1-samuel","chapter":1,"verse":14,"index":77}
+          {"book":"1-samuel","chapter":1,"verse":17,"index":69}
+          {"book":"1-samuel","chapter":1,"verse":23,"index":55}
+          {"book":"1-samuel","chapter":1,"verse":26,"index":84}
+      ir: their
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":19,"index":97}
+      n: then
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":11,"index":206}
+          {"book":"1-samuel","chapter":1,"verse":22,"index":103}
+      re: there
+        fore: therefore
+          leaves
+            {"book":"1-samuel","chapter":1,"verse":7,"index":96}
+            {"book":"1-samuel","chapter":1,"verse":13,"index":86}
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":1,"index":4}
+          {"book":"1-samuel","chapter":1,"verse":3,"index":183}
+          {"book":"1-samuel","chapter":1,"verse":11,"index":271}
+          {"book":"1-samuel","chapter":1,"verse":22,"index":166}
+          {"book":"1-samuel","chapter":1,"verse":28,"index":122}
+      y: they
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":9,"index":24}
+          {"book":"1-samuel","chapter":1,"verse":9,"index":60}
+          {"book":"1-samuel","chapter":1,"verse":19,"index":4}
+          {"book":"1-samuel","chapter":1,"verse":25,"index":4}
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":1,"index":92}
+        {"book":"1-samuel","chapter":1,"verse":1,"index":112}
+        {"book":"1-samuel","chapter":1,"verse":1,"index":130}
+        {"book":"1-samuel","chapter":1,"verse":1,"index":147}
+        {"book":"1-samuel","chapter":1,"verse":2,"index":22}
+        {"book":"1-samuel","chapter":1,"verse":2,"index":34}
+        {"book":"1-samuel","chapter":1,"verse":2,"index":58}
+        {"book":"1-samuel","chapter":1,"verse":2,"index":70}
+        {"book":"1-samuel","chapter":1,"verse":3,"index":78}
+        {"book":"1-samuel","chapter":1,"verse":3,"index":111}
+        {"book":"1-samuel","chapter":1,"verse":3,"index":153}
+        {"book":"1-samuel","chapter":1,"verse":3,"index":168}
+        {"book":"1-samuel","chapter":1,"verse":4,"index":9}
+        {"book":"1-samuel","chapter":1,"verse":5,"index":68}
+        {"book":"1-samuel","chapter":1,"verse":6,"index":73}
+        {"book":"1-samuel","chapter":1,"verse":7,"index":52}
+        {"book":"1-samuel","chapter":1,"verse":7,"index":65}
+        {"book":"1-samuel","chapter":1,"verse":9,"index":84}
+        {"book":"1-samuel","chapter":1,"verse":9,"index":124}
+        {"book":"1-samuel","chapter":1,"verse":9,"index":138}
+        {"book":"1-samuel","chapter":1,"verse":10,"index":51}
+        {"book":"1-samuel","chapter":1,"verse":11,"index":76}
+        {"book":"1-samuel","chapter":1,"verse":11,"index":232}
+        {"book":"1-samuel","chapter":1,"verse":11,"index":245}
+        {"book":"1-samuel","chapter":1,"verse":12,"index":54}
+        {"book":"1-samuel","chapter":1,"verse":15,"index":159}
+        {"book":"1-samuel","chapter":1,"verse":16,"index":62}
+        {"book":"1-samuel","chapter":1,"verse":17,"index":45}
+        {"book":"1-samuel","chapter":1,"verse":18,"index":61}
+        {"book":"1-samuel","chapter":1,"verse":19,"index":20}
+        {"book":"1-samuel","chapter":1,"verse":19,"index":61}
+        {"book":"1-samuel","chapter":1,"verse":19,"index":157}
+        {"book":"1-samuel","chapter":1,"verse":20,"index":32}
+        {"book":"1-samuel","chapter":1,"verse":20,"index":169}
+        {"book":"1-samuel","chapter":1,"verse":21,"index":4}
+        {"book":"1-samuel","chapter":1,"verse":21,"index":62}
+        {"book":"1-samuel","chapter":1,"verse":21,"index":71}
+        {"book":"1-samuel","chapter":1,"verse":22,"index":78}
+        {"book":"1-samuel","chapter":1,"verse":22,"index":152}
+        {"book":"1-samuel","chapter":1,"verse":23,"index":105}
+        {"book":"1-samuel","chapter":1,"verse":23,"index":137}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":143}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":156}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":180}
+        {"book":"1-samuel","chapter":1,"verse":25,"index":37}
+        {"book":"1-samuel","chapter":1,"verse":26,"index":60}
+        {"book":"1-samuel","chapter":1,"verse":26,"index":108}
+        {"book":"1-samuel","chapter":1,"verse":27,"index":29}
+        {"book":"1-samuel","chapter":1,"verse":28,"index":34}
+        {"book":"1-samuel","chapter":1,"verse":28,"index":85}
+        {"book":"1-samuel","chapter":1,"verse":28,"index":113}
+    i: thi
+      ne: thine
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":11,"index":94}
+          {"book":"1-samuel","chapter":1,"verse":11,"index":142}
+          {"book":"1-samuel","chapter":1,"verse":11,"index":177}
+          {"book":"1-samuel","chapter":1,"verse":16,"index":10}
+          {"book":"1-samuel","chapter":1,"verse":18,"index":18}
+      s: this
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":3,"index":4}
+          {"book":"1-samuel","chapter":1,"verse":27,"index":4}
+    ou: thou
+      ght: thought
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":13,"index":100}
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":8,"index":58}
+        {"book":"1-samuel","chapter":1,"verse":8,"index":79}
+        {"book":"1-samuel","chapter":1,"verse":11,"index":51}
+        {"book":"1-samuel","chapter":1,"verse":14,"index":37}
+        {"book":"1-samuel","chapter":1,"verse":17,"index":92}
+        {"book":"1-samuel","chapter":1,"verse":23,"index":78}
+    ree: three
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":24,"index":60}
+    y: thy
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":8,"index":100}
+        {"book":"1-samuel","chapter":1,"verse":14,"index":63}
+        {"book":"1-samuel","chapter":1,"verse":17,"index":74}
+        {"book":"1-samuel","chapter":1,"verse":18,"index":47}
+        {"book":"1-samuel","chapter":1,"verse":26,"index":29}
+  ime: time
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":4,"index":13}
+      {"book":"1-samuel","chapter":1,"verse":20,"index":36}
+  o: to
+    ok: took
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":24,"index":33}
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":3,"index":45}
+      {"book":"1-samuel","chapter":1,"verse":3,"index":60}
+      {"book":"1-samuel","chapter":1,"verse":4,"index":52}
+      {"book":"1-samuel","chapter":1,"verse":4,"index":78}
+      {"book":"1-samuel","chapter":1,"verse":6,"index":47}
+      {"book":"1-samuel","chapter":1,"verse":7,"index":49}
+      {"book":"1-samuel","chapter":1,"verse":8,"index":30}
+      {"book":"1-samuel","chapter":1,"verse":8,"index":135}
+      {"book":"1-samuel","chapter":1,"verse":12,"index":12}
+      {"book":"1-samuel","chapter":1,"verse":19,"index":94}
+      {"book":"1-samuel","chapter":1,"verse":19,"index":109}
+      {"book":"1-samuel","chapter":1,"verse":20,"index":18}
+      {"book":"1-samuel","chapter":1,"verse":21,"index":48}
+      {"book":"1-samuel","chapter":1,"verse":25,"index":47}
+      {"book":"1-samuel","chapter":1,"verse":28,"index":31}
+      {"book":"1-samuel","chapter":1,"verse":28,"index":82}
+  wo: two
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":2,"index":11}
+      {"book":"1-samuel","chapter":1,"verse":3,"index":115}
+u: u
+  nt: unt
+    il: until
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":22,"index":72}
+        {"book":"1-samuel","chapter":1,"verse":23,"index":72}
+        {"book":"1-samuel","chapter":1,"verse":23,"index":176}
+    o: unto
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":3,"index":73}
+        {"book":"1-samuel","chapter":1,"verse":5,"index":4}
+        {"book":"1-samuel","chapter":1,"verse":10,"index":46}
+        {"book":"1-samuel","chapter":1,"verse":11,"index":172}
+        {"book":"1-samuel","chapter":1,"verse":11,"index":227}
+        {"book":"1-samuel","chapter":1,"verse":14,"index":13}
+        {"book":"1-samuel","chapter":1,"verse":21,"index":57}
+        {"book":"1-samuel","chapter":1,"verse":22,"index":37}
+        {"book":"1-samuel","chapter":1,"verse":23,"index":29}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":138}
+        {"book":"1-samuel","chapter":1,"verse":26,"index":103}
+  p: up
+    on: upon
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":9,"index":99}
+        {"book":"1-samuel","chapter":1,"verse":11,"index":297}
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":3,"index":18}
+      {"book":"1-samuel","chapter":1,"verse":5,"index":86}
+      {"book":"1-samuel","chapter":1,"verse":6,"index":91}
+      {"book":"1-samuel","chapter":1,"verse":7,"index":46}
+      {"book":"1-samuel","chapter":1,"verse":9,"index":15}
+      {"book":"1-samuel","chapter":1,"verse":19,"index":14}
+      {"book":"1-samuel","chapter":1,"verse":21,"index":45}
+      {"book":"1-samuel","chapter":1,"verse":22,"index":20}
+      {"book":"1-samuel","chapter":1,"verse":22,"index":69}
+      {"book":"1-samuel","chapter":1,"verse":24,"index":42}
+vo: vo
+  ice: voice
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":13,"index":65}
+  w: vow
+    ed: vowed
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":11,"index":8}
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":11,"index":16}
+      {"book":"1-samuel","chapter":1,"verse":21,"index":101}
+w: w
+  a: wa
+    s: was
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":1,"index":10}
+        {"book":"1-samuel","chapter":1,"verse":1,"index":79}
+        {"book":"1-samuel","chapter":1,"verse":2,"index":42}
+        {"book":"1-samuel","chapter":1,"verse":4,"index":18}
+        {"book":"1-samuel","chapter":1,"verse":10,"index":8}
+        {"book":"1-samuel","chapter":1,"verse":13,"index":71}
+        {"book":"1-samuel","chapter":1,"verse":18,"index":118}
+        {"book":"1-samuel","chapter":1,"verse":20,"index":41}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":190}
+    y: way
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":18,"index":80}
+  e: we
+    aned: weaned
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":22,"index":91}
+        {"book":"1-samuel","chapter":1,"verse":23,"index":88}
+        {"book":"1-samuel","chapter":1,"verse":23,"index":186}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":17}
+    epest: weepest
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":8,"index":50}
+    nt: went
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":3,"index":13}
+        {"book":"1-samuel","chapter":1,"verse":7,"index":41}
+        {"book":"1-samuel","chapter":1,"verse":18,"index":71}
+        {"book":"1-samuel","chapter":1,"verse":21,"index":40}
+        {"book":"1-samuel","chapter":1,"verse":22,"index":11}
+    pt: wept
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":7,"index":110}
+        {"book":"1-samuel","chapter":1,"verse":10,"index":65}
+    re: were
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":3,"index":178}
+  h: wh
+    at: what
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":23,"index":42}
+    en: when
+      d: whend
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":7,"index":31}
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":4,"index":4}
+        {"book":"1-samuel","chapter":1,"verse":20,"index":27}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":4}
+    ich: which
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":27,"index":64}
+    y: why
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":8,"index":46}
+        {"book":"1-samuel","chapter":1,"verse":8,"index":68}
+        {"book":"1-samuel","chapter":1,"verse":8,"index":93}
+  i: wi
+    fe: wife
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":4,"index":68}
+        {"book":"1-samuel","chapter":1,"verse":19,"index":147}
+    l: wil
+      l: will
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":11,"index":213}
+          {"book":"1-samuel","chapter":1,"verse":22,"index":57}
+          {"book":"1-samuel","chapter":1,"verse":22,"index":110}
+      t: wilt
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":11,"index":56}
+          {"book":"1-samuel","chapter":1,"verse":11,"index":162}
+          {"book":"1-samuel","chapter":1,"verse":14,"index":32}
+    ne: wine
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":14,"index":67}
+        {"book":"1-samuel","chapter":1,"verse":15,"index":101}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":116}
+    th: with
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":24,"index":45}
+        {"book":"1-samuel","chapter":1,"verse":24,"index":55}
+    ves: wives
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":2,"index":15}
+  o: wo
+    m: wom
+      an: woman
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":15,"index":50}
+          {"book":"1-samuel","chapter":1,"verse":18,"index":65}
+          {"book":"1-samuel","chapter":1,"verse":23,"index":141}
+          {"book":"1-samuel","chapter":1,"verse":26,"index":64}
+      b: womb
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":5,"index":93}
+          {"book":"1-samuel","chapter":1,"verse":6,"index":98}
+    r: wor
+      d: word
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":23,"index":128}
+      ship: worship
+        ped: worshipped
+          leaves
+            {"book":"1-samuel","chapter":1,"verse":19,"index":43}
+            {"book":"1-samuel","chapter":1,"verse":28,"index":102}
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":3,"index":48}
+      thyb: worthyb
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":5,"index":26}
+y: y
+  ear: year
+    ly: yearly
+      a: yearlya
+        leaves
+          {"book":"1-samuel","chapter":1,"verse":3,"index":37}
+      leaves
+        {"book":"1-samuel","chapter":1,"verse":21,"index":75}
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":7,"index":17}
+      {"book":"1-samuel","chapter":1,"verse":7,"index":25}
+  oung: young
+    leaves
+      {"book":"1-samuel","chapter":1,"verse":24,"index":194}

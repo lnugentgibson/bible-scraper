@@ -1,0 +1,34 @@
+{
+  "children": {
+    "atry": {
+      "children": {},
+      "val": {
+        "id": 1403,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 15,
+            "verse": 23,
+            "word_index": 15,
+            "char_index": 80
+          }
+        ]
+      }
+    },
+    "s": {
+      "children": {},
+      "val": {
+        "id": 2095,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 31,
+            "verse": 9,
+            "word_index": 29,
+            "char_index": 147
+          }
+        ]
+      }
+    }
+  }
+}

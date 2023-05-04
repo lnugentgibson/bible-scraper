@@ -1,0 +1,29 @@
+{
+  "children": {},
+  "val": {
+    "id": 574,
+    "occurrences": [
+      {
+        "book": "1-samuel",
+        "chapter": 4,
+        "verse": 1,
+        "word_index": 21,
+        "char_index": 117
+      },
+      {
+        "book": "1-samuel",
+        "chapter": 5,
+        "verse": 1,
+        "word_index": 12,
+        "char_index": 61
+      },
+      {
+        "book": "1-samuel",
+        "chapter": 7,
+        "verse": 12,
+        "word_index": 18,
+        "char_index": 88
+      }
+    ]
+  }
+}

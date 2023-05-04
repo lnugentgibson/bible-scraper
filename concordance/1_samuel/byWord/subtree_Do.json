@@ -1,0 +1,102 @@
+{
+  "children": {
+    "eg": {
+      "children": {},
+      "val": {
+        "id": 1724,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 21,
+            "verse": 7,
+            "word_index": 21,
+            "char_index": 105
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 22,
+            "verse": 9,
+            "word_index": 2,
+            "char_index": 14
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 22,
+            "verse": 18,
+            "word_index": 5,
+            "char_index": 21
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 22,
+            "verse": 18,
+            "word_index": 14,
+            "char_index": 69
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 22,
+            "verse": 22,
+            "word_index": 11,
+            "char_index": 55
+          }
+        ]
+      }
+    },
+    "th": {
+      "children": {},
+      "val": {
+        "id": 1791,
+        "occurrences": [
+          {
+            "book": "1-samuel",
+            "chapter": 23,
+            "verse": 19,
+            "word_index": 10,
+            "char_index": 53
+          },
+          {
+            "book": "1-samuel",
+            "chapter": 26,
+            "verse": 1,
+            "word_index": 9,
+            "char_index": 51
+          }
+        ]
+      }
+    }
+  },
+  "val": {
+    "id": 230,
+    "occurrences": [
+      {
+        "book": "1-samuel",
+        "chapter": 1,
+        "verse": 23,
+        "word_index": 7,
+        "char_index": 39
+      },
+      {
+        "book": "1-samuel",
+        "chapter": 14,
+        "verse": 7,
+        "word_index": 6,
+        "char_index": 37
+      },
+      {
+        "book": "1-samuel",
+        "chapter": 14,
+        "verse": 36,
+        "word_index": 31,
+        "char_index": 153
+      },
+      {
+        "book": "1-samuel",
+        "chapter": 14,
+        "verse": 40,
+        "word_index": 29,
+        "char_index": 133
+      }
+    ]
+  }
+}
